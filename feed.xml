@@ -3,12 +3,33 @@
     <title>Dan Finch</title>
     <link href="https://danfinch.github.io/feed.xml" rel="self" />
     <link href="https://danfinch.github.io" />
-    <updated>2021-09-14T21:30:54-07:00</updated>
+    <updated>2021-09-14T21:40:41-07:00</updated>
     <author>
         <name>Dan</name>
     </author>
     <id>https://danfinch.github.io</id>
 
+    <entry>
+        <title>Contact Me</title>
+        <author>
+            <name>Dan</name>
+        </author>
+        <link href="https://danfinch.github.io/contact/"/>
+        <id>https://danfinch.github.io/contact/</id>
+
+        <updated>2021-09-14T21:40:41-07:00</updated>
+            <summary>
+                <![CDATA[
+                    I am available for consulting and can be reached at danfinch@outlook.com. The&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I am available for consulting and can be reached at <a href="mailto:danfinch@outlook.com">danfinch@outlook.com</a>.</p>
+<p>The only social media account I maintain is at <a href="https://www.github.com/danfinch">my old GitHub profile</a>. Newer work samples will be provided upon request.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Experience</title>
         <author>
@@ -73,7 +94,7 @@
         </author>
         <link href="https://danfinch.github.io/pre-modern-hyperscript/"/>
         <id>https://danfinch.github.io/pre-modern-hyperscript/</id>
-            <category term="Story"/>
+            <category term="Stories"/>
 
         <updated>2021-09-14T19:56:54-07:00</updated>
             <summary>
@@ -99,7 +120,7 @@
         </author>
         <link href="https://danfinch.github.io/a-standing-ovation/"/>
         <id>https://danfinch.github.io/a-standing-ovation/</id>
-            <category term="Story"/>
+            <category term="Stories"/>
 
         <updated>2021-09-14T19:56:59-07:00</updated>
             <summary>
@@ -123,7 +144,7 @@
         </author>
         <link href="https://danfinch.github.io/coldwater-creek-product-catalog/"/>
         <id>https://danfinch.github.io/coldwater-creek-product-catalog/</id>
-            <category term="Story"/>
+            <category term="Stories"/>
 
         <updated>2021-09-14T19:56:49-07:00</updated>
             <summary>
