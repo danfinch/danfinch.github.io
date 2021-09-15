@@ -43,13 +43,15 @@
             "id": "https://danfinch.github.io/experience/",
             "url": "https://danfinch.github.io/experience/",
             "title": "Experience",
+            "summary": "Tooooo Dooooo ",
+            "content_html": "<p>Tooooo</p>\n<p>Dooooo</p>\n",
             "author": {
                 "name": "Dan"
             },
             "tags": [
             ],
             "date_published": "2021-09-14T19:53:03-07:00",
-            "date_modified": "2021-09-14T20:39:26-07:00"
+            "date_modified": "2021-09-14T21:11:37-07:00"
         },
         {
             "id": "https://danfinch.github.io/coldwater-creek-product-catalog/",

@@ -3,7 +3,7 @@
     <title>Dan Finch</title>
     <link href="https://danfinch.github.io/feed.xml" rel="self" />
     <link href="https://danfinch.github.io" />
-    <updated>2021-09-14T20:39:26-07:00</updated>
+    <updated>2021-09-14T21:11:37-07:00</updated>
     <author>
         <name>Dan</name>
     </author>
@@ -67,9 +67,19 @@
         <link href="https://danfinch.github.io/experience/"/>
         <id>https://danfinch.github.io/experience/</id>
 
-        <updated>2021-09-14T20:39:26-07:00</updated>
-            <summary></summary>
-        <content></content>
+        <updated>2021-09-14T21:11:37-07:00</updated>
+            <summary>
+                <![CDATA[
+                    Tooooo Dooooo 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Tooooo</p>
+<p>Dooooo</p>
+
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>Coldwater Creek Product Catalog</title>
