@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://danfinch.github.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://da.nfin.ch/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://danfinch.github.io/</loc>
+<loc>https://da.nfin.ch/</loc>
 </url>
 <url>
-<loc>https://danfinch.github.io/a-standing-ovation/</loc>
+<loc>https://da.nfin.ch/a-standing-ovation/</loc>
 <lastmod>2021-09-14T19:56:59-07:00</lastmod>
 </url>
 <url>
-<loc>https://danfinch.github.io/about-me/</loc>
+<loc>https://da.nfin.ch/about-me/</loc>
 <lastmod>2021-09-14T20:25:04-07:00</lastmod>
 </url>
 <url>
-<loc>https://danfinch.github.io/coldwater-creek-product-catalog/</loc>
+<loc>https://da.nfin.ch/coldwater-creek-product-catalog/</loc>
 <lastmod>2021-09-14T19:56:49-07:00</lastmod>
 </url>
 <url>
-<loc>https://danfinch.github.io/contact/</loc>
+<loc>https://da.nfin.ch/contact/</loc>
 <lastmod>2021-09-14T21:40:41-07:00</lastmod>
 </url>
 <url>
-<loc>https://danfinch.github.io/experience/</loc>
+<loc>https://da.nfin.ch/experience/</loc>
 <lastmod>2021-09-14T21:30:54-07:00</lastmod>
 </url>
 <url>
-<loc>https://danfinch.github.io/pre-modern-hyperscript/</loc>
+<loc>https://da.nfin.ch/pre-modern-hyperscript/</loc>
 <lastmod>2021-09-14T19:56:54-07:00</lastmod>
 </url>
 </urlset>

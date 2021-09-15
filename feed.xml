@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Dan Finch</title>
-    <link href="https://danfinch.github.io/feed.xml" rel="self" />
-    <link href="https://danfinch.github.io" />
+    <link href="https://da.nfin.ch/feed.xml" rel="self" />
+    <link href="https://da.nfin.ch" />
     <updated>2021-09-14T21:40:41-07:00</updated>
     <author>
         <name>Dan</name>
     </author>
-    <id>https://danfinch.github.io</id>
+    <id>https://da.nfin.ch</id>
 
     <entry>
         <title>Contact Me</title>
         <author>
             <name>Dan</name>
         </author>
-        <link href="https://danfinch.github.io/contact/"/>
-        <id>https://danfinch.github.io/contact/</id>
+        <link href="https://da.nfin.ch/contact/"/>
+        <id>https://da.nfin.ch/contact/</id>
 
         <updated>2021-09-14T21:40:41-07:00</updated>
             <summary>
@@ -35,8 +35,8 @@
         <author>
             <name>Dan</name>
         </author>
-        <link href="https://danfinch.github.io/experience/"/>
-        <id>https://danfinch.github.io/experience/</id>
+        <link href="https://da.nfin.ch/experience/"/>
+        <id>https://da.nfin.ch/experience/</id>
 
         <updated>2021-09-14T21:30:54-07:00</updated>
             <summary>
@@ -92,8 +92,8 @@
         <author>
             <name>Dan</name>
         </author>
-        <link href="https://danfinch.github.io/pre-modern-hyperscript/"/>
-        <id>https://danfinch.github.io/pre-modern-hyperscript/</id>
+        <link href="https://da.nfin.ch/pre-modern-hyperscript/"/>
+        <id>https://da.nfin.ch/pre-modern-hyperscript/</id>
             <category term="Stories"/>
 
         <updated>2021-09-14T19:56:54-07:00</updated>
@@ -118,8 +118,8 @@
         <author>
             <name>Dan</name>
         </author>
-        <link href="https://danfinch.github.io/a-standing-ovation/"/>
-        <id>https://danfinch.github.io/a-standing-ovation/</id>
+        <link href="https://da.nfin.ch/a-standing-ovation/"/>
+        <id>https://da.nfin.ch/a-standing-ovation/</id>
             <category term="Stories"/>
 
         <updated>2021-09-14T19:56:59-07:00</updated>
@@ -142,8 +142,8 @@
         <author>
             <name>Dan</name>
         </author>
-        <link href="https://danfinch.github.io/coldwater-creek-product-catalog/"/>
-        <id>https://danfinch.github.io/coldwater-creek-product-catalog/</id>
+        <link href="https://da.nfin.ch/coldwater-creek-product-catalog/"/>
+        <id>https://da.nfin.ch/coldwater-creek-product-catalog/</id>
             <category term="Stories"/>
 
         <updated>2021-09-14T19:56:49-07:00</updated>
@@ -182,8 +182,8 @@
         <author>
             <name>Dan</name>
         </author>
-        <link href="https://danfinch.github.io/about-me/"/>
-        <id>https://danfinch.github.io/about-me/</id>
+        <link href="https://da.nfin.ch/about-me/"/>
+        <id>https://da.nfin.ch/about-me/</id>
 
         <updated>2021-09-14T20:25:04-07:00</updated>
             <summary>
