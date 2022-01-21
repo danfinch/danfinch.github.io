@@ -3,12 +3,158 @@
     <title>Dan Finch</title>
     <link href="https://da.nfin.ch/feed.xml" rel="self" />
     <link href="https://da.nfin.ch" />
-    <updated>2021-09-21T10:42:44-07:00</updated>
+    <updated>2022-01-20T18:06:52-08:00</updated>
     <author>
         <name>Dan</name>
     </author>
     <id>https://da.nfin.ch</id>
 
+    <entry>
+        <title>Tech</title>
+        <author>
+            <name>Dan</name>
+        </author>
+        <link href="https://da.nfin.ch/tech/"/>
+        <id>https://da.nfin.ch/tech/</id>
+
+        <updated>2022-01-20T18:01:21-08:00</updated>
+            <summary>
+                <![CDATA[
+                    I could not possibly list all the tech I've worked with, but these are products I've done non-trivial work with.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I could not possibly list all the tech I've worked with, but these are products I've done non-trivial work with. Particularly deep experience is marked with a ⭐.</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 33.3333%;">
+<p>Highly Proficient</p>
+<ul style="list-style-type: square;">
+<li>TypeScript ⭐</li>
+<li>JavaScript ⭐</li>
+<li>C# ⭐</li>
+<li>F# ⭐</li>
+<li>LiveScript ⭐</li>
+</ul>
+<p>Familiar Enough</p>
+<ul style="list-style-type: square;">
+<li>Bash</li>
+<li>Ruby</li>
+<li>Python</li>
+<li>PHP</li>
+<li>Lua</li>
+</ul>
+</td>
+<td style="width: 33.3333%;">
+<p>Platforms &amp; Toolchains</p>
+<ul style="list-style-type: square;">
+<li>Node.js ⭐</li>
+<li>.NET ⭐</li>
+<li>.NET Core ⭐</li>
+<li>HTML5 &amp; CSS ⭐</li>
+<li>Mono</li>
+<li>Docker</li>
+<li>Git</li>
+<li>GitHub</li>
+<li>Electron</li>
+<li>Chrome Extensions</li>
+<li>AWS</li>
+<li>Netlify</li>
+<li>Azure</li>
+<li>Modbus</li>
+<li>OpenStack</li>
+</ul>
+</td>
+<td style="width: 33.3333%;">
+<p>Front-end Tooling</p>
+<ul style="list-style-type: square;">
+<li>Webpack ⭐</li>
+<li>Babel ⭐</li>
+<li>Parcel ⭐</li>
+<li>SCSS</li>
+<li>Stylus</li>
+<li>Less</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">
+<p>Databases &amp; Storage</p>
+<ul style="list-style-type: square;">
+<li>Postgres ⭐</li>
+<li>Redis ⭐</li>
+<li>MySQL</li>
+<li>Sql Server</li>
+<li>Sqlite</li>
+<li>MongoDB</li>
+<li>ElasticSearch</li>
+</ul>
+</td>
+<td style="width: 33.3333%;">
+<p>Front-end Libraries</p>
+<ul style="list-style-type: square;">
+<li>React ⭐</li>
+<li>Mithril ⭐</li>
+<li>jQuery ⭐</li>
+<li>Redux ⭐</li>
+<li>Angular</li>
+<li>Next.js</li>
+<li>styled-components</li>
+<li>Raphael</li>
+<li>Blueprint</li>
+<li>Bootstrap</li>
+<li>Foundation</li>
+</ul>
+</td>
+<td style="width: 33.3333%;">
+<p>General Purpose &amp; Back-end Libraries</p>
+<ul style="list-style-type: square;">
+<li>Express ⭐</li>
+<li>Koa ⭐</li>
+<li>Underscore.js</li>
+<li>Lodash</li>
+<li>RxJS</li>
+<li>SignalR</li>
+<li>Kefir.js</li>
+<li>Dapper</li>
+</ul>
+<br><br></td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">
+<p>Patterns &amp; Methodologies</p>
+<ul style="list-style-type: square;">
+<li>Functional Programming &amp; FRP</li>
+<li>OOP (multiple interpretations)</li>
+<li>REST</li>
+<li>Domain-driven design (DDD)</li>
+<li>Metaprogramming </li>
+<li>TDD &amp; BDD</li>
+<li>SOLID</li>
+<li>SOA/Microservices</li>
+<li>Agile, Scrum, &amp; Lean</li>
+<li>Distributed SCM</li>
+<li>CI/CD</li>
+<li>Parallel, Concurrent, &amp; Asynchronous Programming</li>
+<li>MVC</li>
+<li>Jamstack</li>
+</ul>
+</td>
+<td style="width: 33.3333%;">
+<p> </p>
+</td>
+<td style="width: 33.3333%;">
+<p> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Contact Me</title>
         <author>
@@ -17,16 +163,16 @@
         <link href="https://da.nfin.ch/contact/"/>
         <id>https://da.nfin.ch/contact/</id>
 
-        <updated>2021-09-14T23:23:26-07:00</updated>
+        <updated>2022-01-20T16:51:30-08:00</updated>
             <summary>
                 <![CDATA[
-                    I am available for consulting and can be reached at danfinch@outlook.com. The&hellip;
+                    I am available for consulting and can be reached at danfinch@outlook.com. The only social media accounts I maintain are at&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p>I am available for consulting and can be reached at <a href="mailto:danfinch@outlook.com">danfinch@outlook.com</a>.</p>
-<p>The only social media account I maintain is at <a href="https://www.github.com/danfinch">my old GitHub profile</a>. Newer work samples will be provided upon request.</p>
+<p>The only social media accounts I maintain are at <a href="https://www.github.com/danfinch">my old GitHub profile</a> and <a href="www.linkedin.com/in/danfinch">LinkedIn</a>. Newer work samples will be provided upon request.</p>
 <p>My one-page résumé is available to <a href="https://da.nfin.ch/media/files/Dan Finch - Résumé.pdf">download in PDF</a>.</p>
             ]]>
         </content>
@@ -42,7 +188,7 @@
         <updated>2021-09-14T21:30:54-07:00</updated>
             <summary>
                 <![CDATA[
-                    Independent Consultant Dec 2017 – Present (Remote) My recent work has involved&hellip;
+                    Independent Consultant Dec 2017 – Present (Remote) My recent work has involved the ingestion and visualization of scientific measurements as&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -100,7 +246,7 @@
         <updated>2021-09-14T19:56:54-07:00</updated>
             <summary>
                 <![CDATA[
-                    I was working at Promitheia during the first days of “Web 2.0”.
+                    I was working at Promitheia during the first days of “Web 2.0”. AJAX was very popular but the tools to&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -126,7 +272,7 @@
         <updated>2021-09-14T19:56:59-07:00</updated>
             <summary>
                 <![CDATA[
-                    Between major projects at Coldwater Creek I was asked to rewrite a&hellip;
+                    Between major projects at Coldwater Creek I was asked to rewrite a tool used by associates at our many retail&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -150,7 +296,7 @@
         <updated>2021-09-21T10:42:44-07:00</updated>
             <summary>
                 <![CDATA[
-                    The Problem The project was explained to me as adding infinite scrolling&hellip;
+                    The Problem The project was explained to me as adding infinite scrolling and some faceted search features to our product&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -186,17 +332,25 @@
         <link href="https://da.nfin.ch/about-me/"/>
         <id>https://da.nfin.ch/about-me/</id>
 
-        <updated>2021-09-14T20:25:04-07:00</updated>
+        <updated>2022-01-20T18:06:52-08:00</updated>
             <summary>
                 <![CDATA[
-                    I’ve learned to make code small, simple, and readable. I gravitate towards&hellip;
+                    I’ve learned to make code small, simple, and readable. My aim is for prolific and expeditious code output while maintaining&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>I’ve learned to make code <strong>small, simple, and readable</strong>. I gravitate towards functional and language-oriented-programming. Good use of rich type systems, run-time reflection, and declarative APIs can help reduce ceremony, spaghetti code, and bugs.</p>
-<p>I love building and fixing systems so they can be managed simply and quickly improved upon.</p>
+                <p>I’ve learned to make code <strong>small, simple, and readable</strong>. My aim is for prolific and expeditious code output while maintaining quality. I make loosely-coupled components, understandable abstractions, and low-ceremony frameworks.</p>
 <p>As a programmer, my first principle is <strong>user experience</strong>. Like most of us, I am disappointed by lousy software every day, and I use that dissatisfaction to set a high standard for my work. The first end user is the next person who must understand and add to the code.</p>
+<p>As a teammate and leader, I am devoted to friendliness and respect. I am a good communicator, love sharing my knowledge, and learning from others.</p>
+<h3 id="skills">Skills</h3>
+<ul>
+<li>Consciousness of mainstream &amp; emerging technology and trends.</li>
+<li>Quickly vetting and adapting to new technologies.</li>
+<li>High standards for great user experiences.</li>
+<li>Eliminating friction in development processes.</li>
+<li>Understanding all the areas of a codebase and recognizing where waste can be reduced.</li>
+</ul>
 
             ]]>
         </content>
