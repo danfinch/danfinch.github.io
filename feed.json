@@ -100,15 +100,15 @@
             "id": "https://da.nfin.ch/about-me/",
             "url": "https://da.nfin.ch/about-me/",
             "title": "About Me",
-            "summary": "I’ve learned to make code small, simple, and readable. My aim is for prolific and expeditious code output while maintaining&hellip;",
-            "content_html": "<p>I’ve learned to make code <strong>small, simple, and readable</strong>. My aim is for prolific and expeditious code output while maintaining quality. I make loosely-coupled components, understandable abstractions, and low-ceremony frameworks.</p>\n<p>As a programmer, my first principle is <strong>user experience</strong>. Like most of us, I am disappointed by lousy software every day, and I use that dissatisfaction to set a high standard for my work. The first end user is the next person who must understand and add to the code.</p>\n<p>As a teammate and leader, I am devoted to friendliness and respect. I am a good communicator, love sharing my knowledge, and learning from others.</p>\n<h3 id=\"skills\">Skills</h3>\n<ul>\n<li>Consciousness of mainstream &amp; emerging technology and trends.</li>\n<li>Quickly vetting and adapting to new technologies.</li>\n<li>High standards for great user experiences.</li>\n<li>Eliminating friction in development processes.</li>\n<li>Understanding all the areas of a codebase and recognizing where waste can be reduced.</li>\n</ul>\n",
+            "summary": "I’ve learned to make code small, simple, and readable. My aim is prolific and expeditious code output while maintaining quality.",
+            "content_html": "<p>I’ve learned to make code <strong>small, simple, and readable</strong>. My aim is prolific and expeditious code output while maintaining quality. I make loosely-coupled components, understandable abstractions, and low-ceremony frameworks.</p>\n<p>As a programmer, my first principle is <strong>user experience</strong>. Like most of us, I am disappointed by lousy software every day, and I use that dissatisfaction to set a high standard for my work. The first end user is the next person who must understand and add to the code.</p>\n<p>As a teammate and leader, I am devoted to friendliness and respect. I am a good communicator, love sharing my knowledge, and learning from others.</p>\n<h3 id=\"skills\">Skills</h3>\n<ul>\n<li>Consciousness of mainstream &amp; emerging technology and trends.</li>\n<li>Quickly vetting and adapting to new technologies.</li>\n<li>High standards for great user experiences.</li>\n<li>Eliminating friction in development processes.</li>\n<li>Understanding all the areas of a codebase and recognizing where waste can be reduced.</li>\n</ul>\n",
             "author": {
                 "name": "Dan"
             },
             "tags": [
             ],
             "date_published": "2021-09-14T19:40:33-07:00",
-            "date_modified": "2022-01-20T18:06:52-08:00"
+            "date_modified": "2022-01-20T21:48:16-08:00"
         }
     ]
 }

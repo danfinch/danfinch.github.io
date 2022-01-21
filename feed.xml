@@ -3,7 +3,7 @@
     <title>Dan Finch</title>
     <link href="https://da.nfin.ch/feed.xml" rel="self" />
     <link href="https://da.nfin.ch" />
-    <updated>2022-01-20T18:06:52-08:00</updated>
+    <updated>2022-01-20T21:48:16-08:00</updated>
     <author>
         <name>Dan</name>
     </author>
@@ -332,15 +332,15 @@
         <link href="https://da.nfin.ch/about-me/"/>
         <id>https://da.nfin.ch/about-me/</id>
 
-        <updated>2022-01-20T18:06:52-08:00</updated>
+        <updated>2022-01-20T21:48:16-08:00</updated>
             <summary>
                 <![CDATA[
-                    I’ve learned to make code small, simple, and readable. My aim is for prolific and expeditious code output while maintaining&hellip;
+                    I’ve learned to make code small, simple, and readable. My aim is prolific and expeditious code output while maintaining quality.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>I’ve learned to make code <strong>small, simple, and readable</strong>. My aim is for prolific and expeditious code output while maintaining quality. I make loosely-coupled components, understandable abstractions, and low-ceremony frameworks.</p>
+                <p>I’ve learned to make code <strong>small, simple, and readable</strong>. My aim is prolific and expeditious code output while maintaining quality. I make loosely-coupled components, understandable abstractions, and low-ceremony frameworks.</p>
 <p>As a programmer, my first principle is <strong>user experience</strong>. Like most of us, I am disappointed by lousy software every day, and I use that dissatisfaction to set a high standard for my work. The first end user is the next person who must understand and add to the code.</p>
 <p>As a teammate and leader, I am devoted to friendliness and respect. I am a good communicator, love sharing my knowledge, and learning from others.</p>
 <h3 id="skills">Skills</h3>
