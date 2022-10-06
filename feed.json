@@ -28,14 +28,14 @@
             "url": "https://da.nfin.ch/contact/",
             "title": "Contact Me",
             "summary": "I am available for consulting and can be reached at danfinch@outlook.com. GitHub LinkedIn my old GitHub profile My one-page résumé&hellip;",
-            "content_html": "<p>I am available for consulting and can be reached at <a href=\"mailto:danfinch@outlook.com\">danfinch@outlook.com</a>.</p>\n<p><a href=\"https://github.com/errilaz\" rel=\"nofollow\">GitHub</a></p>\n<p><a href=\"www.linkedin.com/in/danfinch\">LinkedIn</a></p>\n<p><a href=\"https://www.github.com/danfinch\">my old GitHub profile</a> <a href=\"www.linkedin.com/in/danfinch\"></a></p>\n<p>My one-page résumé is available to <a href=\"https://da.nfin.ch/media/files/Dan Finch - Résumé.pdf\">download in PDF</a>.</p>",
+            "content_html": "<p>I am available for consulting and can be reached at <a href=\"mailto:danfinch@outlook.com\">danfinch@outlook.com</a>.</p>\n<p><a href=\"https://github.com/errilaz\" rel=\"nofollow\">GitHub</a></p>\n<p><a href=\"www.linkedin.com/in/danfinch\">LinkedIn</a></p>\n<p><a href=\"https://www.github.com/danfinch\">my old GitHub profile</a> <a href=\"www.linkedin.com/in/danfinch\"></a></p>\n<p>My one-page résumé is available to <a href=\"https://da.nfin.ch/DanFinch - Résumé.pdf\">download in PDF</a>.</p>",
             "author": {
                 "name": "Dan"
             },
             "tags": [
             ],
             "date_published": "2021-09-14T21:38:50-07:00",
-            "date_modified": "2022-10-06T11:23:22-07:00"
+            "date_modified": "2022-10-06T11:29:35-07:00"
         },
         {
             "id": "https://da.nfin.ch/experience/",
