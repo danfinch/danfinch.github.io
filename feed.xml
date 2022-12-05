@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Dan Finch</title>
     <link href="https://da.nfin.ch/feed.xml" rel="self" />
     <link href="https://da.nfin.ch" />
-    <updated>2022-10-27T07:03:57-07:00</updated>
+    <updated>2022-12-05T17:07:05+01:00</updated>
     <author>
         <name>Dan</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://da.nfin.ch/tech/"/>
         <id>https://da.nfin.ch/tech/</id>
 
-        <updated>2022-08-19T11:16:00-07:00</updated>
+        <updated>2022-12-05T17:00:13+01:00</updated>
             <summary>
                 <![CDATA[
                     I could not possibly list all the tech I've worked with, but these are products I've done non-trivial work with.
@@ -164,19 +164,17 @@
         <link href="https://da.nfin.ch/contact/"/>
         <id>https://da.nfin.ch/contact/</id>
 
-        <updated>2022-10-27T07:03:57-07:00</updated>
+        <updated>2022-01-21T01:51:30+01:00</updated>
             <summary>
                 <![CDATA[
-                    I am available for consulting and can be reached at danfinch@outlook.com. GitHub LinkedIn my old GitHub profile My one-page résumé&hellip;
+                    I am available for consulting and can be reached at danfinch@outlook.com. The only social media accounts I maintain are at&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p>I am available for consulting and can be reached at <a href="mailto:danfinch@outlook.com">danfinch@outlook.com</a>.</p>
-<p><a href="https://github.com/errilaz" rel="nofollow">GitHub</a></p>
-<p><a href="https://www.linkedin.com/in/danfinch">LinkedIn</a></p>
-<p><a href="https://www.github.com/danfinch">my old GitHub profile</a> <a href="www.linkedin.com/in/danfinch"></a></p>
-<p>My one-page résumé is available to <a href="https://da.nfin.ch/DanFinch - Résumé.pdf">download in PDF</a>.</p>
+<p>The only social media accounts I maintain are at <a href="https://www.github.com/danfinch">my old GitHub profile</a> and <a href="www.linkedin.com/in/danfinch">LinkedIn</a>. Newer work samples will be provided upon request.</p>
+<p>My one-page résumé is available to <a href="https://da.nfin.ch/media/files/Dan Finch - Résumé.pdf">download in PDF</a>.</p>
             ]]>
         </content>
     </entry>
@@ -188,17 +186,17 @@
         <link href="https://da.nfin.ch/experience/"/>
         <id>https://da.nfin.ch/experience/</id>
 
-        <updated>2021-09-14T21:30:54-07:00</updated>
+        <updated>2022-12-05T17:07:05+01:00</updated>
             <summary>
                 <![CDATA[
-                    Independent Consultant Dec 2017 – Present (Remote) My recent work has involved the ingestion and visualization of scientific measurements as&hellip;
+                    Independent Consultant Dec 2017 – Present (Remote) My recent work has involved React Native mobile apps, the ingestion and visualization&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <h4 class="western"><strong>Independent Consultant</strong></h4>
 <h6 class="western">Dec 2017 – Present (Remote)</h6>
-<p class="western">My recent work has involved the ingestion and visualization of scientific measurements as well as work in novel programming languages.</p>
+<p class="western">My recent work has involved React Native mobile apps, the ingestion and visualization of scientific measurements, and extending web app bundlers.</p>
 <h4 class="western"><strong>RiskLens</strong> – Senior Software Engineer</h4>
 <h6 class="western">Jun 2017 – Dec 2017 (Spokane, WA)</h6>
 <p class="western">Helped lead the front-end development of FAIR-U - a React + Redux-based app &amp; transitioned the team to TypeScript and other modern front-end tools. Gained experience with a security-focused and process-intensive team.</p>
@@ -246,7 +244,7 @@
         <id>https://da.nfin.ch/pre-modern-hyperscript/</id>
             <category term="Stories"/>
 
-        <updated>2021-09-14T19:56:54-07:00</updated>
+        <updated>2021-09-15T04:56:54+02:00</updated>
             <summary>
                 <![CDATA[
                     I was working at Promitheia during the first days of “Web 2.0”. AJAX was very popular but the tools to&hellip;
@@ -272,7 +270,7 @@
         <id>https://da.nfin.ch/a-standing-ovation/</id>
             <category term="Stories"/>
 
-        <updated>2021-09-14T19:56:59-07:00</updated>
+        <updated>2021-09-15T04:56:59+02:00</updated>
             <summary>
                 <![CDATA[
                     Between major projects at Coldwater Creek I was asked to rewrite a tool used by associates at our many retail&hellip;
@@ -296,7 +294,7 @@
         <id>https://da.nfin.ch/coldwater-creek-product-catalog/</id>
             <category term="Stories"/>
 
-        <updated>2021-09-21T10:42:44-07:00</updated>
+        <updated>2021-09-21T19:42:44+02:00</updated>
             <summary>
                 <![CDATA[
                     The Problem The project was explained to me as adding infinite scrolling and some faceted search features to our product&hellip;
@@ -335,7 +333,7 @@
         <link href="https://da.nfin.ch/about-me/"/>
         <id>https://da.nfin.ch/about-me/</id>
 
-        <updated>2022-01-20T21:48:16-08:00</updated>
+        <updated>2022-01-21T06:48:16+01:00</updated>
             <summary>
                 <![CDATA[
                     I’ve learned to make code small, simple, and readable. My aim is prolific and expeditious code output while maintaining quality.
