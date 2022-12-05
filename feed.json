@@ -27,15 +27,15 @@
             "id": "https://da.nfin.ch/contact/",
             "url": "https://da.nfin.ch/contact/",
             "title": "Contact Me",
-            "summary": "I am available for consulting and can be reached at danfinch@outlook.com. The only social media accounts I maintain are at&hellip;",
-            "content_html": "<p>I am available for consulting and can be reached at <a href=\"mailto:danfinch@outlook.com\">danfinch@outlook.com</a>.</p>\n<p>The only social media accounts I maintain are at <a href=\"https://www.github.com/danfinch\">my old GitHub profile</a> and <a href=\"www.linkedin.com/in/danfinch\">LinkedIn</a>. Newer work samples will be provided upon request.</p>\n<p>My one-page résumé is available to <a href=\"https://da.nfin.ch/media/files/DanFinch - Résumé.pdf\">download in PDF</a>.</p>",
+            "summary": "I am available for consulting and can be reached at danfinch@outlook.com. I can be found at GitHub and LinkedIn. Newer work&hellip;",
+            "content_html": "<p>I am available for consulting and can be reached at <a href=\"mailto:danfinch@outlook.com\">danfinch@outlook.com</a>.</p>\n<p>I can be found at <a href=\"https://www.github.com/danfinch\">GitHub</a> and <a href=\"www.linkedin.com/in/danfinch\">LinkedIn</a>. Newer work samples will be provided upon request.</p>\n<p>My one-page résumé is available to <a href=\"https://da.nfin.ch/media/files/DanFinch - Résumé.pdf\">download in PDF</a>.</p>",
             "author": {
                 "name": "Dan"
             },
             "tags": [
             ],
             "date_published": "2021-09-15T06:38:50+02:00",
-            "date_modified": "2022-12-05T17:16:42+01:00"
+            "date_modified": "2022-12-05T17:23:35+01:00"
         },
         {
             "id": "https://da.nfin.ch/experience/",
