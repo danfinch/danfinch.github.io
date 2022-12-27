@@ -3,7 +3,7 @@
     <title>Dan Finch</title>
     <link href="https://da.nfin.ch/feed.xml" rel="self" />
     <link href="https://da.nfin.ch" />
-    <updated>2022-12-26T21:06:59+01:00</updated>
+    <updated>2022-12-27T14:04:48+01:00</updated>
     <author>
         <name>Dan</name>
     </author>
@@ -164,15 +164,16 @@
         <link href="https://da.nfin.ch/contact/"/>
         <id>https://da.nfin.ch/contact/</id>
 
-        <updated>2022-12-26T21:06:59+01:00</updated>
+        <updated>2022-12-27T14:02:48+01:00</updated>
             <summary>
                 <![CDATA[
-                    I am available for consulting and can be reached at danfinch@outlook.com or at LinkedIn. My open source portfolio is at errilaz.org.
+                    I am available for consulting or employment and can be reached at danfinch@outlook.com or at LinkedIn. I am a US citizen&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>I am available for consulting and can be reached at <a href="mailto:danfinch@outlook.com">danfinch@outlook.com</a> or at <a href="www.linkedin.com/in/danfinch">LinkedIn</a>.</p>
+                <p>I am available for consulting or employment and can be reached at <a href="mailto:danfinch@outlook.com">danfinch@outlook.com</a> or at <a href="www.linkedin.com/in/danfinch">LinkedIn</a>.</p>
+<p>I am a US citizen living in Slovenia (Central European Time). I can be contracted through <a href="https://www.upwork.com/freelancers/~01842f94c9a1afee78">UpWork</a> for EMEA companies unable to sponsor local work authorization.</p>
 <p>My open source portfolio is at <a href="https://errilaz.org/">errilaz.org</a>.</p>
 <p>My one-page résumé is available to <a href="https://da.nfin.ch/media/files/DanFinch - Résumé.pdf">download in PDF</a>.</p>
             ]]>
@@ -333,7 +334,7 @@
         <link href="https://da.nfin.ch/about-me/"/>
         <id>https://da.nfin.ch/about-me/</id>
 
-        <updated>2022-01-21T06:48:16+01:00</updated>
+        <updated>2022-12-27T14:04:48+01:00</updated>
             <summary>
                 <![CDATA[
                     I’ve learned to make code small, simple, and readable. My aim is prolific and expeditious code output while maintaining quality.
@@ -342,14 +343,14 @@
         <content type="html">
             <![CDATA[
                 <p>I’ve learned to make code <strong>small, simple, and readable</strong>. My aim is prolific and expeditious code output while maintaining quality. I make loosely-coupled components, understandable abstractions, and low-ceremony frameworks.</p>
-<p>As a programmer, my first principle is <strong>user experience</strong>. Like most of us, I am disappointed by lousy software every day, and I use that dissatisfaction to set a high standard for my work. The first end user is the next person who must understand and add to the code.</p>
-<p>As a teammate and leader, I am devoted to friendliness and respect. I am a good communicator, love sharing my knowledge, and learning from others.</p>
+<p>As a programmer, my first principle is <strong>user experience</strong>. Like most of us, I struggle with mediocre software every day, and I use that dissatisfaction to set a high standard for my work. The first end user is the next person who must understand and add to the code.</p>
+<p>As a teammate and leader, I am devoted to <strong>friendliness</strong> and <strong>respect</strong>. I am a good communicator, love sharing my knowledge, and learning from others.</p>
 <h3 id="skills">Skills</h3>
 <ul>
 <li>Consciousness of mainstream &amp; emerging technology and trends.</li>
-<li>Quickly vetting and adapting to new technologies.</li>
-<li>High standards for great user experiences.</li>
-<li>Eliminating friction in development processes.</li>
+<li>Quickly vetting and adapting to new technologies - building and improving stacks.</li>
+<li>High standards for great user and developer experiences.</li>
+<li>Eliminating friction in processes.</li>
 <li>Understanding all the areas of a codebase and recognizing where waste can be reduced.</li>
 </ul>
 
