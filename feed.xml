@@ -3,7 +3,7 @@
     <title>Dan Finch</title>
     <link href="https://da.nfin.ch/feed.xml" rel="self" />
     <link href="https://da.nfin.ch" />
-    <updated>2022-12-27T14:04:48+01:00</updated>
+    <updated>2022-12-27T14:13:10+01:00</updated>
     <author>
         <name>Dan</name>
     </author>
@@ -187,17 +187,17 @@
         <link href="https://da.nfin.ch/experience/"/>
         <id>https://da.nfin.ch/experience/</id>
 
-        <updated>2022-12-05T17:07:05+01:00</updated>
+        <updated>2022-12-27T14:13:10+01:00</updated>
             <summary>
                 <![CDATA[
-                    Independent Consultant Dec 2017 – Present (Remote) My recent work has involved React Native mobile apps, the ingestion and visualization&hellip;
+                    Independent Consultant Dec 2017 – Present (Remote) My recent freelance work has involved React Native mobile apps, the ingestion and&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <h4 class="western"><strong>Independent Consultant</strong></h4>
 <h6 class="western">Dec 2017 – Present (Remote)</h6>
-<p class="western">My recent work has involved React Native mobile apps, the ingestion and visualization of scientific measurements, and extending web app bundlers.</p>
+<p class="western">My recent freelance work has involved React Native mobile apps, the ingestion and visualization of scientific measurements, and extending web app bundlers.</p>
 <h4 class="western"><strong>RiskLens</strong> – Senior Software Engineer</h4>
 <h6 class="western">Jun 2017 – Dec 2017 (Spokane, WA)</h6>
 <p class="western">Helped lead the front-end development of FAIR-U - a React + Redux-based app &amp; transitioned the team to TypeScript and other modern front-end tools. Gained experience with a security-focused and process-intensive team.</p>
@@ -215,7 +215,7 @@
 <h6 class="western">Oct 2012 – Apr 2014 (Sandpoint, ID)</h6>
 <p class="western">Worked with many teams to finish an amazing number of projects. My work on both internal tooling and customer experience put the company ahead of its industry in many respects.</p>
 <ul>
-<li>Implemented a novel infinite scrolling method and product search which outperformed all competitors.</li>
+<li>Implemented a product search which outperformed all competitors, including a novel infinite scrolling method.</li>
 <li>Provided an array of features and user interfaces widgets for website with around one million hits per day.</li>
 <li>Wrote or re-wrote around 30 internal web-driven tools for e-commerce &amp; marketing teams.</li>
 <li>Wrote custom jQuery UI powered framework and widgets for tool suite.</li>
@@ -334,7 +334,7 @@
         <link href="https://da.nfin.ch/about-me/"/>
         <id>https://da.nfin.ch/about-me/</id>
 
-        <updated>2022-12-27T14:04:48+01:00</updated>
+        <updated>2022-12-27T14:11:19+01:00</updated>
             <summary>
                 <![CDATA[
                     I’ve learned to make code small, simple, and readable. My aim is prolific and expeditious code output while maintaining quality.
@@ -344,7 +344,7 @@
             <![CDATA[
                 <p>I’ve learned to make code <strong>small, simple, and readable</strong>. My aim is prolific and expeditious code output while maintaining quality. I make loosely-coupled components, understandable abstractions, and low-ceremony frameworks.</p>
 <p>As a programmer, my first principle is <strong>user experience</strong>. Like most of us, I struggle with mediocre software every day, and I use that dissatisfaction to set a high standard for my work. The first end user is the next person who must understand and add to the code.</p>
-<p>As a teammate and leader, I am devoted to <strong>friendliness</strong> and <strong>respect</strong>. I am a good communicator, love sharing my knowledge, and learning from others.</p>
+<p>As a teammate and leader, I am devoted to <strong>friendliness</strong> and <strong>respect</strong>. I am a good communicator, love sharing my knowledge, and learning from others. I’ve given talks at local user groups, mentored co-workers in my free time, and publish <a href="https://errilaz.org">open source projects</a>.</p>
 <h3 id="skills">Skills</h3>
 <ul>
 <li>Consciousness of mainstream &amp; emerging technology and trends.</li>
