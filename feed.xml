@@ -3,7 +3,7 @@
     <title>Dan Finch</title>
     <link href="https://da.nfin.ch/feed.xml" rel="self" />
     <link href="https://da.nfin.ch" />
-    <updated>2023-01-01T14:21:17+01:00</updated>
+    <updated>2023-01-01T15:22:40+01:00</updated>
     <author>
         <name>Dan</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://da.nfin.ch/tech/"/>
         <id>https://da.nfin.ch/tech/</id>
 
-        <updated>2022-12-05T17:00:13+01:00</updated>
+        <updated>2023-01-01T15:22:40+01:00</updated>
             <summary>
                 <![CDATA[
                     I could not possibly list all the tech I've worked with, but these are products I've done non-trivial work with.
@@ -25,7 +25,8 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <p>I could not possibly list all the tech I've worked with, but these are products I've done non-trivial work with. Particularly deep experience is marked with a ⭐.</p>
+                <figure class="post__image"><img loading="lazy"  src="https://da.nfin.ch/media/posts/9/Typescript_logo_2020.svg" alt="" width="128" height="128"></figure><figure class="post__image"><img loading="lazy"  src="https://da.nfin.ch/media/posts/9/React-icon-2.svg" alt="" width="144" height="128"></figure><figure class="post__image"><img loading="lazy"  src="https://da.nfin.ch/media/posts/9/Node.js_logo.svg" alt="" width="209" height="128"></figure><figure class="post__image"><img loading="lazy"  src="https://da.nfin.ch/media/posts/9/NET_Core_Logo.svg" alt="" width="128" height="128"></figure>
+<p>I could not possibly list all the tech I've worked with, but these are products I've done non-trivial work with. Particularly deep experience is marked with a ⭐.</p>
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
