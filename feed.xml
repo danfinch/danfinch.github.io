@@ -3,7 +3,7 @@
     <title>Dan Finch</title>
     <link href="https://da.nfin.ch/feed.xml" rel="self" />
     <link href="https://da.nfin.ch" />
-    <updated>2022-12-27T14:13:10+01:00</updated>
+    <updated>2023-01-01T14:21:17+01:00</updated>
     <author>
         <name>Dan</name>
     </author>
@@ -164,7 +164,7 @@
         <link href="https://da.nfin.ch/contact/"/>
         <id>https://da.nfin.ch/contact/</id>
 
-        <updated>2022-12-27T14:02:48+01:00</updated>
+        <updated>2023-01-01T14:21:17+01:00</updated>
             <summary>
                 <![CDATA[
                     I am available for consulting or employment and can be reached at danfinch@outlook.com or at LinkedIn. I am a US citizen&hellip;
@@ -172,7 +172,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <p>I am available for consulting or employment and can be reached at <a href="mailto:danfinch@outlook.com">danfinch@outlook.com</a> or at <a href="www.linkedin.com/in/danfinch">LinkedIn</a>.</p>
+                <p>I am available for consulting or employment and can be reached at <a href="mailto:danfinch@outlook.com">danfinch@outlook.com</a> or at <a href="https://www.linkedin.com/in/danfinch/">LinkedIn</a>.</p>
 <p>I am a US citizen living in Slovenia (Central European Time). I can be contracted through <a href="https://www.upwork.com/freelancers/~01842f94c9a1afee78">UpWork</a> for EMEA companies unable to sponsor local work authorization.</p>
 <p>My open source portfolio is at <a href="https://errilaz.org/">errilaz.org</a>.</p>
 <p>My one-page résumé is available to <a href="https://da.nfin.ch/media/files/DanFinch - Résumé.pdf">download in PDF</a>.</p>
