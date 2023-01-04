@@ -16,6 +16,7 @@
     "pocketpress": "*"
   },
   "scripts": {
-    "build": "pocket"
+    "build": "pocket",
+    "build:dev": "POCKET_DEV=true ../pocketpress/bin/pocket -v"
   }
 }
