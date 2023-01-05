@@ -6,7 +6,11 @@ page: layout "Experience - Dan Finch",
     #### Independent Consultant
     > Dec 2017 - Present (Remote)
 
-    My recent freelance work has involved React Native mobile apps, the ingestion and visualization of scientific measurements, and extending web app bundlers.
+    My recent freelance work has included:
+
+    - Creating a mobile social network app for a startup conference and shared working space provider. This was written in functional TypeScript and React Native, with some Python/Django and Postgres on a Heroku backend.
+    - Consulting on JavaScript and front-end tech for Bitbanger Labs for their ColorSpike hybrid mobile app built on Cordova.
+    - Writing a Chrome extension using the Mithril framework to inspect advertisements embedded in web pages.
 
     #### RiskLens - Senior Software Engineer
     > Jun 2017 - Dec 2017 (Spokane, WA)
@@ -16,7 +20,7 @@ page: layout "Experience - Dan Finch",
     #### Independent Consultant
     > Dec 2014 - Jun 2017 (Remote)
 
-    Performed work for various startup and corporate clients, focusing on IOT projects. Worked with Postgres, ElasticSearch, Redis, TypeScript, AWS, React.js, Mithril, and Google Chrome Extensions.
+    Performed work for various startup and corporate clients, focusing on IOT projects. Worked with Postgres, ElasticSearch, Redis, TypeScript, React.js, and the QuickBooks API.
 
     #### TenX Logic - Contract Developer
     > Oct 2015 - Mar 2016 (Remote)
