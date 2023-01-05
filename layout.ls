@@ -13,6 +13,8 @@
           margin-right "30px !important"
         rule ".brand:hover",
           text-decoration "none"
+        rule ".social",
+          float "right"
     body do
       nav do
         a.brand href: "/", "Dan Finch"
@@ -34,3 +36,6 @@
         a href: "https://github.com/errilaz/pocketpress", "PocketPress"
         " | "
         a href: "https://github.com/danfinch/danfinch.github.io", "Source Code"
+        div.social do
+          a href: "https://www.linkedin.com/in/danfinch/",
+            raw load-file "images/linkedin.svg"

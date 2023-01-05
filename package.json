@@ -19,6 +19,6 @@
   "scripts": {
     "build": "pocket",
     "build:dev": "POCKET_DEV=true ../pocketpress/bin/pocket -v",
-    "dev": "nodemon -e ls --exec \"pnpm build:dev\""
+    "dev": "nodemon -e ls,svg --exec \"pnpm build:dev\""
   }
 }
