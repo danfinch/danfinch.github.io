@@ -3,6 +3,7 @@
     head do
       meta charset: "UTF-8"
       title _title
+      meta name: "darkreader-lock"
       link rel: "shortcut icon" type: "image/png" href: "/favicon.png"
       link rel: "stylesheet" href: "https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css"
       style do
