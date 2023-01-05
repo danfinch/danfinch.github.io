@@ -7,6 +7,7 @@
       link rel: "shortcut icon" type: "image/png" href: "/favicon.png"
       link rel: "stylesheet" href: "https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css"
       style do
+        raw ":root { --links: \#e35e5e; }"
         rule ".brand",
           color "white"
           font-size "24px"
