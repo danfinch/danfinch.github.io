@@ -16,6 +16,8 @@
           text-decoration "none"
         rule ".social",
           float "right"
+        rule "main li",
+          list-style-type "\"⪧ \""
     body do
       nav do
         a.brand href: "/", "Dan Finch"

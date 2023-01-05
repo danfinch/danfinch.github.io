@@ -96,20 +96,29 @@ page: layout "Tech - Dan Finch",
         - Heroku
         - Netlify
       """
-    tr td colspan: 3, markdown """
-      #### Methodologies & Paradigms
-      - Functional Programming & FRP
-      - Domain-driven design (DDD)
-      - OOP (multiple interpretations)
-      - Microservices & SOA
-      - Metaprogramming 
-      - Agile & Scrum
-      - Parallel, Concurrent, & Asynchronous Programming
-      - REST
-      - TDD & BDD
-      - SOLID Principles
-      - Distributed SCM
-      - CI/CD
-      - MVC
-    """
+    tr do
+      td colspan: 2, markdown """
+        #### Methodologies & Paradigms
+        - Functional Programming & FRP
+        - Domain-driven design (DDD)
+        - OOP (multiple interpretations)
+        - Microservices & SOA
+        - Metaprogramming 
+        - Agile & Scrum
+        - Parallel, Concurrent, & Asynchronous Programming
+        - REST
+        - TDD & BDD
+        - SOLID Principles
+        - Distributed SCM
+        - CI/CD
+        - MVC
+      """
+      td markdown """
+        #### Wish List
+        - Zig
+        - ReasonML
+        - ClickHouse
+        - SolidJS
+        - Svelte
+      """
   p "⭐ = deep experience"
