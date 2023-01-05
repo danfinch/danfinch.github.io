@@ -1,6 +1,6 @@
 layout = include "../layout.ls"
 
-page: layout "Experience",
+page: layout "Experience - Dan Finch",
   h1 "Experience"
   markdown """
     #### Independent Consultant

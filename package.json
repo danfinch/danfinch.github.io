@@ -13,10 +13,12 @@
     "url": "https://github.com/danfinch/danfinch.github.io"
   },
   "devDependencies": {
+    "nodemon": "^2.0.20",
     "pocketpress": "*"
   },
   "scripts": {
     "build": "pocket",
-    "build:dev": "POCKET_DEV=true ../pocketpress/bin/pocket -v"
+    "build:dev": "POCKET_DEV=true ../pocketpress/bin/pocket -v",
+    "dev": "nodemon -e ls --exec \"pnpm build:dev\""
   }
 }

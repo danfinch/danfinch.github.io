@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Standing Ovation - Dan Finch</title><link rel="shortcut icon" type="image/png" href="favicon.png"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css"><style>.brand { color: white; font-size: 24px; font-weight: bold; margin-right: 30px !important } .brand:hover { text-decoration: none } </style></head><body><nav><a class="brand" href="/">Dan Finch</a><ul><li><a href="/">About</a></li><li><a href="/experience">Experience</a></li><li><a href="/tech">Tech</a></li><li><a>Stories</a><ul><li><a href="/stories/product-catalog">Product Catalog</a></li><li><a href="/stories/standing-ovation">Standing Ovation</a></li><li><a href="/stories/hyperscript">Hyperscript</a></li></ul></li><li><a href="/contact">Contact</a></li></ul></nav><main><h1>Standing Ovation</h1><p>Between major projects at Coldwater Creek I was asked to rewrite a tool used by associates at
+our many retail locations. This was primarily used to look up products when a customer brought
+in a return. It was difficult to use as we had about 5 or so different types of SKUs for each
+product. Some were not supported by the tool and those that were had to be entered just right.</p>
+<p>The existing tool was written in ASP.NET 1.0 about 10 years prior and it was not possible to
+bring it into a newer framework. To avoid working with the spaghettified nightmare of Web Forms
+I spent about an hour writing a reflection-based MVC engine which lived inside a .ashx handler
+file. I created a more modern UI and made sure the SQL query was flexible enough to find any
+product by any of its SKUs.</p>
+<p>This took about a day and a half, it was released, and I heard nothing more about it. About
+a month later my manager came over to my desk and said &quot;you got a minute? come with me&quot;. I
+followed him downstairs to a conference room filled with about 200 people and we walked to
+the front. He said &quot;this is Dan, he rewrote the product lookup tool&quot;. The crowd erupted into
+applause and cheering. It turned out to be a meeting of our retail location managers and
+apparently I had eliminated one of their biggest headaches!</p>
+</main><footer>Powered by <a href="https://github.com/errilaz/pocketpress">PocketPress</a> | <a href="https://github.com/danfinch/danfinch.github.io">Source Code</a></footer></body></html>
