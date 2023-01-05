@@ -82,6 +82,7 @@ page: layout "Tech - Dan Finch",
         - Sqlite
         - MySQL
         - ElasticSearch
+        - Sql Server
       """
       td markdown """
         #### Cloud

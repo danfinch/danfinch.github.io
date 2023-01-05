@@ -30,4 +30,12 @@ page: layout "Dan Finch",
     - Metaprogramming, language-oriented programming.
     - Developer tools, hacking on build tools and bundlers.
     - Automating self-hosted cloud tech.
+
+    ### Hobbies
+
+    - Forests, mountains, and seas
+    - Castles, ruins, and caves
+    - Animals: domestic, wild, and extinct
+    - History, art, & language
+    - Meditation
   """
