@@ -15,29 +15,37 @@ page: layout "Experience - Dan Finch",
     #### RiskLens - Senior Software Engineer
     > Jun 2017 - Dec 2017 (Spokane, WA)
 
-    Helped lead the front-end development of FAIR-U - a React + Redux-based app backed by C#, Sql Server, and Azure & transitioned the team to TypeScript and other modern front-end tools. Gained experience with a security-focused and process-intensive team.
+    Helped lead the front-end development of FAIR-U - a React + Redux-based app backed by C#, Sql Server, and
+    Azure & transitioned the team to TypeScript and other modern front-end tools. Gained experience with a
+    security-focused and process-intensive team.
 
     #### Independent Consultant
     > Dec 2014 - Jun 2017 (Remote)
 
-    Performed work for various startup and corporate clients, focusing on IOT projects. Worked with Postgres, ElasticSearch, Redis, TypeScript, React.js, and the QuickBooks API.
+    Performed work for various startup and corporate clients, focusing on IOT projects. Worked with Postgres,
+    ElasticSearch, Redis, TypeScript, React.js, and the QuickBooks API.
 
     #### TenX Logic - Contract Developer
     > Oct 2015 - Mar 2016 (Remote)
 
-    This project for the oil + gas industry targeted the Mono platform on ARM processors. I designed and implemented a C#-based driver model to control equipment in the field, with a frontend written in AngularJS.
+    This project for the oil + gas industry targeted the Mono platform on ARM processors. I designed and
+    implemented a C#-based driver model to control equipment in the field, with a frontend written in AngularJS.
 
     #### Kochava - Senior Developer
     > Apr 2014 - Nov 2014 (Sandpoint, ID)
 
-    Worked on infrastructure and systems to manage large volumes of real-time analytics data. I tackled complex challenges requiring constant inventiveness and collaboration to help the company scale at a rapid rate.
+    Worked on infrastructure and systems to manage large volumes of real-time analytics data. I tackled
+    complex challenges requiring constant inventiveness and collaboration to help the company scale at
+    a rapid rate.
 
-    My work centered around Node.js, Redis, Linux, and MongoDB. I also led the early implementation of a scalable high-traffic analytics backend.
+    My work centered around Node.js, Redis, Linux, and MongoDB. I also led the early implementation of a
+    scalable high-traffic analytics backend.
 
     #### Coldwater Creek - Web Developer
     > Oct 2012 - Apr 2014 (Sandpoint, ID)
 
-    Worked with many teams to finish an amazing number of projects. My work on both internal tooling and customer experience put the company ahead of its industry in many respects.
+    Worked with many teams to finish an amazing number of projects. My work on both internal tooling and
+    customer experience put the company ahead of its industry in many respects.
 
     - Implemented a product search which outperformed all competitors, including a novel infinite scrolling method.
     - Provided an array of features and user interfaces widgets for website with around one million hits per day.
@@ -49,7 +57,8 @@ page: layout "Experience - Dan Finch",
     #### Promitheia - Technical Director
     > Sep 2006 - Sep 2012 (Austin, TX)
 
-    As co-founder of this startup I was responsible for software design, programming, project management, operations, testing, maintenance, and security.
+    As co-founder of this startup I was responsible for software design, programming, project management,
+    operations, testing, maintenance, and security.
 
     - Created complex e-commerce website featuring retail and affiliate marketing management. Owner of dozens of projects within the company.
     - Configured and managed production web servers including Microsoft IIS and LAMP stack.

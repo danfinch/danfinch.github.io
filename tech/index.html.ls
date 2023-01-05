@@ -59,11 +59,10 @@ page: layout "Tech - Dan Finch",
         - Redux ⭐
         - Next.js
         - Angular
-        - SCSS
-        - Stylus
-        - Less
-        - Bootstrap
+        - SCSS, Stylus, Less
         - Tailwind
+        - Bootstrap, Foundation
+        - Lodash, RxJS, Kefir, etc.
       """
     tr do
       td markdown """
