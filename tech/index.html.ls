@@ -116,9 +116,10 @@ page: layout "Tech - Dan Finch",
       td markdown """
         #### Wish List
         - Zig
-        - ReasonML
+        - ReScript
         - ClickHouse
         - SolidJS
         - Svelte
+        - TurboPack
       """
   p "⭐ = deep experience"

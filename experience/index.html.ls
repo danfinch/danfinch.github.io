@@ -4,13 +4,15 @@ page: layout "Experience - Dan Finch",
   h1 "Experience"
   markdown """
     #### Independent Consultant
-    > Dec 2017 - Present (Remote)
+    > Dec 2014 - Present (Remote)
 
     My recent freelance work has included:
 
-    - Creating a mobile social network app for a startup conference and shared working space provider. This was written in functional TypeScript and React Native, with some Python/Django and Postgres on a Heroku backend.
-    - Consulting on JavaScript and front-end tech for Bitbanger Labs for their ColorSpike hybrid mobile app built on Cordova.
-    - Writing a Chrome extension using the Mithril framework to inspect advertisements embedded in web pages.
+    - Created a mobile social network app for a startup conference and shared working space provider. This was written in functional TypeScript and React Native, with some Python/Django and Postgres on a Heroku backend.
+    - Consulted on JavaScript and front-end tech for Bitbanger Labs for their ColorSpike hybrid mobile app built on Cordova.
+    - Wrote a Chrome extension using the Mithril framework to inspect advertisements embedded in web pages for Bringhub.
+    - Designed and prototyped an app and backend for a IOT equipment monitoring startup in Sandpoint, ID using React, ElasticSearch, and Postgres.
+    - Created an Electron app connected to the QuickBooks API to build quotes for a greenhouse manufacturer.
 
     #### RiskLens - Senior Software Engineer
     > Jun 2017 - Dec 2017 (Spokane, WA)
@@ -18,12 +20,6 @@ page: layout "Experience - Dan Finch",
     Helped lead the front-end development of FAIR-U - a React + Redux-based app backed by C#, Sql Server, and
     Azure & transitioned the team to TypeScript and other modern front-end tools. Gained experience with a
     security-focused and process-intensive team.
-
-    #### Independent Consultant
-    > Dec 2014 - Jun 2017 (Remote)
-
-    Performed work for various startup and corporate clients, focusing on IOT projects. Worked with Postgres,
-    ElasticSearch, Redis, TypeScript, React.js, and the QuickBooks API.
 
     #### TenX Logic - Contract Developer
     > Oct 2015 - Mar 2016 (Remote)
@@ -66,4 +62,13 @@ page: layout "Experience - Dan Finch",
     - Analyzed and selected supporting software and services, including early adoption of technologies such as ASP.NET MVC, jQuery, F#, Amazon Web Services, and distributed source control.
     - Developed solutions using Service Oriented Architecture (SOA), WCF, and Windows services. Integrated software with various cloud data and web service providers, including AWS, Authorize.NET, and Zencoder.
     - Studied and implemented e-commerce best practices, web security standards, and PCI compliance.
+
+    #### Mercury ML - Founder
+    > 2002 - 2004 (Lapeer, MI)
+
+    I got my start right out of high school helping to scale two companies out of working with unwieldy spreadsheets.
+
+    - Released two major versions of a VB6 application to catalog marketing affiliates, track orders, and calculate payouts.
+    - Wrote and administered affiliate websites in Classic ASP and VBScript.
   """
+  

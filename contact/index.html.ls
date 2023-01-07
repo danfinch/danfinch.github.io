@@ -12,5 +12,5 @@ page: layout "Contact Dan Finch",
 
     My open source portfolio is at [errilaz.org](https://errilaz.org).
 
-    My one-page résumé is available to [download in PDF](</contact/DanFinch - Résumé.pdf>).
+    My one-page résumé is available to [download in PDF](</contact/Dan Finch - CV.pdf>).
   """
