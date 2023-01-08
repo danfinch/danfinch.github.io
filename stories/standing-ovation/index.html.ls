@@ -1,4 +1,4 @@
-layout = include "../../layout.ls"
+layout = include "~/layout.ls"
 
 page: layout "Standing Ovation - Dan Finch",
   h1 "Standing Ovation"

@@ -1,4 +1,4 @@
-layout = include "../../layout.ls"
+layout = include "~/layout.ls"
 
 page: layout "Pre-modern Hyperscript - Dan Finch",
   h1 "Pre-modern Hyperscript"

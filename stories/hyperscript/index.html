@@ -1,25 +1,139 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><title>Pre-modern Hyperscript - Dan Finch</title><meta name="darkreader-lock"><link rel="shortcut icon" type="image/png" href="/favicon.png"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css"><style>.brand { color: white; font-size: 24px; font-weight: bold; margin-right: 30px !important } .brand:hover { text-decoration: none } .social { float: right } main li { list-style-type: "⪧ " } </style></head><body><nav><a class="brand" href="/">Dan Finch</a><ul><li><a href="/">About</a></li><li><a href="/experience">Experience</a></li><li><a href="/tech">Tech</a></li><li><a>Stories</a><ul><li><a href="/stories/product-catalog">Product Catalog</a></li><li><a href="/stories/standing-ovation">Standing Ovation</a></li><li><a href="/stories/hyperscript">Hyperscript</a></li></ul></li><li><a href="/contact">Contact</a></li></ul></nav><main><h1>Pre-modern Hyperscript</h1><p>I was working at Promitheia during the first days of &quot;Web 2.0&quot;. AJAX was very popular but
-the tools to fill the gap between dynamic and static sites were not yet around. Server side
-rendering was necessary, but I still wanted to provide very interactive pages without adding
-a completely different client-side framework for rendering markup.</p>
-<p>I settled on what some called AHAH - Asynchronous HTML And HTTP - where the server rendered
-partial views via XMLHttpRequests which were inserted into the DOM. I made use of a number
-of non-standard HTML attributes to declaratively wire up these insertions. As a result very
-few widgets needed custom code. jQuery was patched at startup to rebind events when content
-was inserted. I was able to achieve performant and flashy interactions with careful use of
-jQuery (it is possible!) long before they became commonplace.</p>
-<p>Working with views in ASP.NET prior to the release of Razor was painful: unmaintainable soup
-markup was everywhere. As a result, many people were creating their own view engines. I did
-not have the bandwidth to create and maintain a custom view engine, let alone make it work
-with the IDE. </p>
-<p>I decided to create a C#-based fluent DSL and write the views directly in the host language
-itself. People now call this hyperscript, and it is fairly common, but at the time (2008-ish),
-other programmers thought I was insane! This had many benefits - I did not have two syntaxes
-mixed up in the same file, I had all the support of my IDE (autocomplete, type checking), and
-I could package components as DLL files. Layout views could simply be written as methods with
-parameters for the &quot;holes&quot;.</p>
-<p>In debug mode my view engine would set up a file watcher and auto-reload views as I worked on
-them; another perk which was scoffed at then but is now looked at as a standard feature of a web
-stack.</p>
-</main><footer>Powered by <a href="https://github.com/errilaz/pocketpress">PocketPress</a> | <a href="https://github.com/danfinch/danfinch.github.io">Source Code</a><div class="social"><a href="https://www.linkedin.com/in/danfinch/"><svg height="24" viewBox="0 0 72 72" width="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z" fill="#007EBB"/><path d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z" fill="#FFF"/></g></svg></a></div></footer></body></html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      Pre-modern Hyperscript - Dan Finch
+    </title>
+    <meta name="darkreader-lock">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css">
+    <style>
+      .brand {
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 30px !important
+      }
+      .brand:hover {
+        text-decoration: none
+      }
+      .social {
+        float: right
+      }
+      main li {
+        list-style-type: "⪧ "
+      }
+      
+    </style>
+    
+  </head>
+  <body>
+    <nav>
+      <a class="brand" href="/">
+        Dan Finch
+      </a>
+      <ul>
+        <li>
+          <a href="/">
+            About
+          </a>
+          
+        </li>
+        <li>
+          <a href="/experience">
+            Experience
+          </a>
+          
+        </li>
+        <li>
+          <a href="/tech">
+            Tech
+          </a>
+          
+        </li>
+        <li>
+          <a>
+            Stories
+          </a>
+          <ul>
+            <li>
+              <a href="/stories/product-catalog">
+                Product Catalog
+              </a>
+              
+            </li>
+            <li>
+              <a href="/stories/standing-ovation">
+                Standing Ovation
+              </a>
+              
+            </li>
+            <li>
+              <a href="/stories/hyperscript">
+                Hyperscript
+              </a>
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        <li>
+          <a href="/contact">
+            Contact
+          </a>
+          
+        </li>
+        
+      </ul>
+      
+    </nav>
+    <main>
+      <h1>
+        Pre-modern Hyperscript
+      </h1>
+      <p>I was working at Promitheia during the first days of &quot;Web 2.0&quot;. AJAX was very popular but
+      the tools to fill the gap between dynamic and static sites were not yet around. Server side
+      rendering was necessary, but I still wanted to provide very interactive pages without adding
+      a completely different client-side framework for rendering markup.</p>
+      <p>I settled on what some called AHAH - Asynchronous HTML And HTTP - where the server rendered
+      partial views via XMLHttpRequests which were inserted into the DOM. I made use of a number
+      of non-standard HTML attributes to declaratively wire up these insertions. As a result very
+      few widgets needed custom code. jQuery was patched at startup to rebind events when content
+      was inserted. I was able to achieve performant and flashy interactions with careful use of
+      jQuery (it is possible!) long before they became commonplace.</p>
+      <p>Working with views in ASP.NET prior to the release of Razor was painful: unmaintainable soup
+      markup was everywhere. As a result, many people were creating their own view engines. I did
+      not have the bandwidth to create and maintain a custom view engine, let alone make it work
+      with the IDE. </p>
+      <p>I decided to create a C#-based fluent DSL and write the views directly in the host language
+      itself. People now call this hyperscript, and it is fairly common, but at the time (2008-ish),
+      other programmers thought I was insane! This had many benefits - I did not have two syntaxes
+      mixed up in the same file, I had all the support of my IDE (autocomplete, type checking), and
+      I could package components as DLL files. Layout views could simply be written as methods with
+      parameters for the &quot;holes&quot;.</p>
+      <p>In debug mode my view engine would set up a file watcher and auto-reload views as I worked on
+      them; another perk which was scoffed at then but is now looked at as a standard feature of a web
+      stack.</p>
+      
+    </main>
+    <footer>
+      Powered by <a href="https://github.com/errilaz/pocketpress">
+        PocketPress
+      </a>
+       | <a href="https://github.com/danfinch/danfinch.github.io">
+        Source Code
+      </a>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/danfinch/">
+          <svg height="24" viewBox="0 0 72 72" width="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z" fill="#007EBB"/><path d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z" fill="#FFF"/></g></svg>
+        </a>
+        
+      </div>
+      
+    </footer>
+    
+  </body>
+  
+</html>

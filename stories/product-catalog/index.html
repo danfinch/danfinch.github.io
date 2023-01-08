@@ -1,46 +1,160 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><title>Coldwater Creek Product Catalog</title><meta name="darkreader-lock"><link rel="shortcut icon" type="image/png" href="/favicon.png"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css"><style>.brand { color: white; font-size: 24px; font-weight: bold; margin-right: 30px !important } .brand:hover { text-decoration: none } .social { float: right } main li { list-style-type: "⪧ " } </style></head><body><nav><a class="brand" href="/">Dan Finch</a><ul><li><a href="/">About</a></li><li><a href="/experience">Experience</a></li><li><a href="/tech">Tech</a></li><li><a>Stories</a><ul><li><a href="/stories/product-catalog">Product Catalog</a></li><li><a href="/stories/standing-ovation">Standing Ovation</a></li><li><a href="/stories/hyperscript">Hyperscript</a></li></ul></li><li><a href="/contact">Contact</a></li></ul></nav><main><h1>Coldwater Creek Product Catalog</h1><h2 id="the-project">The Project</h2>
-<p>The project was explained to me as adding infinite scrolling and some faceted search features to our product catalog.
-While researching and planning I soon realized these requirements meant a complete rewrite of the product catalog.
-The shape of our data in SQL Server was not at all amenable to faceted search. Another difficulty was that my manager
-was exiting and there seemed to be no single person in charge of the project, leaving me to fill in a lot of blanks.</p>
-<p>Our existing catalog used a categorization system which required the content team to compose filters in a strange DSL:</p>
-<pre><code>  Attribute&lt;Type&gt;(&#39;Pants&#39;)
-  =&gt;Attribute&lt;Color&gt;(&#39;Blue&#39;)
-</code></pre>
-<p>The syntax of this language seemed arbitrarily complex and the parser was very touchy. Several hundred of these filters
-were translated dynamically at run-time (and quite slowly) to LINQ-to-SQL expression trees and then run against SQL
-Server to collect products matching the criteria. Often, heavy traffic would cause this to take down our servers - the
-SQL queries generated were sometimes many thousands of characters long.</p>
-<p>My testing demonstrated that even if this query performance problem was solved, response times from DB to app servers
-would still be a major bottleneck. I was part of a conservative Microsoft stack team and putting caching layers like
-Redis and memcached between DB and app was a very hard sell.</p>
-<h2 id="server-side">Server Side</h2>
-<p>To implement a caching layer without raising any eyebrows, I simply pulled the entire product catalog into memory
-and put it behind an ASP.NET web service, using standard .NET collections to index it. A single, small VM in each
-datacenter would suffice as our cache, and our team would be capable of maintaining it without learning any scary
-open source tech!</p>
-<p>To make life better for the content team I both rewrote the old expression tree parser to be less brittle and added
-a new DSL so new filters were legible to the non-technical users:</p>
-<pre><code>  Type = Pants
-  and Color = Blue
-</code></pre>
-<p>Compiling these to LINQ-to-SQL still performed poorly, and the code was difficult to maintain. Instead, I generated
-raw T-SQL using Common Table Expressions. All filters were parsed and run at cache startup, taking about 15 seconds
-to run the hundreds of queries and index the entire catalog. Faceted search was then done with the in-memory collections
-rather than the relational tables, giving instant results. We would have been able to shut down about 80% of our web
-servers had this gone into production. Unfortunately, the company announced it was liquidating shortly before launch.</p>
-<h2 id="client-side">Client Side</h2>
-<p>I had never actually used an infinite scroll feature which met my usability standards. Most of our direct competitors
-had implemented this, and all were slow or buggy. All the existing techniques I looked into had big flaws. We had the
-specific requirement: <em>&quot;if the user clicks the back button, she should wind up back at the same part of the infinite
-scroll she left&quot;</em>. The few existing implementations which met this requirement were essentially hacks, and did not work
-reliably.</p>
-<p>Realizing that all browsers have this &quot;where I left off&quot; feature built-in for static pages, my solution was to
-pre-calculate and insert the CSS height of the entire results element at the server, where we knew 1) the fixed height
-of each result, and 2) how many results were on the page. Results were still fetched dynamically, but the user would
-<em>instantly</em> be where she left off when returning to the results. And no awkwardly shrinking/jumping scrollbar! I have
-yet to find this technique used anywhere else.</p>
-<p>When complete, I could go to our &quot;All Products&quot; listing, hold down the Page Down button, and see the entire product
-catalog fly past in a matter of seconds.</p>
-</main><footer>Powered by <a href="https://github.com/errilaz/pocketpress">PocketPress</a> | <a href="https://github.com/danfinch/danfinch.github.io">Source Code</a><div class="social"><a href="https://www.linkedin.com/in/danfinch/"><svg height="24" viewBox="0 0 72 72" width="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z" fill="#007EBB"/><path d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z" fill="#FFF"/></g></svg></a></div></footer></body></html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      Coldwater Creek Product Catalog
+    </title>
+    <meta name="darkreader-lock">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css">
+    <style>
+      .brand {
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 30px !important
+      }
+      .brand:hover {
+        text-decoration: none
+      }
+      .social {
+        float: right
+      }
+      main li {
+        list-style-type: "⪧ "
+      }
+      
+    </style>
+    
+  </head>
+  <body>
+    <nav>
+      <a class="brand" href="/">
+        Dan Finch
+      </a>
+      <ul>
+        <li>
+          <a href="/">
+            About
+          </a>
+          
+        </li>
+        <li>
+          <a href="/experience">
+            Experience
+          </a>
+          
+        </li>
+        <li>
+          <a href="/tech">
+            Tech
+          </a>
+          
+        </li>
+        <li>
+          <a>
+            Stories
+          </a>
+          <ul>
+            <li>
+              <a href="/stories/product-catalog">
+                Product Catalog
+              </a>
+              
+            </li>
+            <li>
+              <a href="/stories/standing-ovation">
+                Standing Ovation
+              </a>
+              
+            </li>
+            <li>
+              <a href="/stories/hyperscript">
+                Hyperscript
+              </a>
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        <li>
+          <a href="/contact">
+            Contact
+          </a>
+          
+        </li>
+        
+      </ul>
+      
+    </nav>
+    <main>
+      <h1>
+        Coldwater Creek Product Catalog
+      </h1>
+      <h2 id="the-project">The Project</h2>
+      <p>The project was explained to me as adding infinite scrolling and some faceted search features to our product catalog.
+      While researching and planning I soon realized these requirements meant a complete rewrite of the product catalog.
+      The shape of our data in SQL Server was not at all amenable to faceted search. Another difficulty was that my manager
+      was exiting and there seemed to be no single person in charge of the project, leaving me to fill in a lot of blanks.</p>
+      <p>Our existing catalog used a categorization system which required the content team to compose filters in a strange DSL:</p>
+      <pre><code>  Attribute&lt;Type&gt;(&#39;Pants&#39;)
+        =&gt;Attribute&lt;Color&gt;(&#39;Blue&#39;)
+      </code></pre>
+      <p>The syntax of this language seemed arbitrarily complex and the parser was very touchy. Several hundred of these filters
+      were translated dynamically at run-time (and quite slowly) to LINQ-to-SQL expression trees and then run against SQL
+      Server to collect products matching the criteria. Often, heavy traffic would cause this to take down our servers - the
+      SQL queries generated were sometimes many thousands of characters long.</p>
+      <p>My testing demonstrated that even if this query performance problem was solved, response times from DB to app servers
+      would still be a major bottleneck. I was part of a conservative Microsoft stack team and putting caching layers like
+      Redis and memcached between DB and app was a very hard sell.</p>
+      <h2 id="server-side">Server Side</h2>
+      <p>To implement a caching layer without raising any eyebrows, I simply pulled the entire product catalog into memory
+      and put it behind an ASP.NET web service, using standard .NET collections to index it. A single, small VM in each
+      datacenter would suffice as our cache, and our team would be capable of maintaining it without learning any scary
+      open source tech!</p>
+      <p>To make life better for the content team I both rewrote the old expression tree parser to be less brittle and added
+      a new DSL so new filters were legible to the non-technical users:</p>
+      <pre><code>  Type = Pants
+        and Color = Blue
+      </code></pre>
+      <p>Compiling these to LINQ-to-SQL still performed poorly, and the code was difficult to maintain. Instead, I generated
+      raw T-SQL using Common Table Expressions. All filters were parsed and run at cache startup, taking about 15 seconds
+      to run the hundreds of queries and index the entire catalog. Faceted search was then done with the in-memory collections
+      rather than the relational tables, giving instant results. We would have been able to shut down about 80% of our web
+      servers had this gone into production. Unfortunately, the company announced it was liquidating shortly before launch.</p>
+      <h2 id="client-side">Client Side</h2>
+      <p>I had never actually used an infinite scroll feature which met my usability standards. Most of our direct competitors
+      had implemented this, and all were slow or buggy. All the existing techniques I looked into had big flaws. We had the
+      specific requirement: <em>&quot;if the user clicks the back button, she should wind up back at the same part of the infinite
+      scroll she left&quot;</em>. The few existing implementations which met this requirement were essentially hacks, and did not work
+      reliably.</p>
+      <p>Realizing that all browsers have this &quot;where I left off&quot; feature built-in for static pages, my solution was to
+      pre-calculate and insert the CSS height of the entire results element at the server, where we knew 1) the fixed height
+      of each result, and 2) how many results were on the page. Results were still fetched dynamically, but the user would
+      <em>instantly</em> be where she left off when returning to the results. And no awkwardly shrinking/jumping scrollbar! I have
+      yet to find this technique used anywhere else.</p>
+      <p>When complete, I could go to our &quot;All Products&quot; listing, hold down the Page Down button, and see the entire product
+      catalog fly past in a matter of seconds.</p>
+      
+    </main>
+    <footer>
+      Powered by <a href="https://github.com/errilaz/pocketpress">
+        PocketPress
+      </a>
+       | <a href="https://github.com/danfinch/danfinch.github.io">
+        Source Code
+      </a>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/danfinch/">
+          <svg height="24" viewBox="0 0 72 72" width="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z" fill="#007EBB"/><path d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z" fill="#FFF"/></g></svg>
+        </a>
+        
+      </div>
+      
+    </footer>
+    
+  </body>
+  
+</html>
