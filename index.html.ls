@@ -22,7 +22,7 @@ page: layout "Dan Finch",
     - Quickly vetting and adapting to new technologies - building and improving stacks.
     - High standards for great user and developer experiences.
     - Eliminating friction in processes.
-    - Managing work through all phases of a developent cycle.
+    - Managing work through all phases of a development cycle.
     - Understanding all the areas of a codebase and recognizing where waste can be reduced.
     - Coordinating large, complex upgrades and refactors.
   
