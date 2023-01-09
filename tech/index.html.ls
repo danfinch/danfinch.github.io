@@ -48,6 +48,12 @@ page: layout "Tech - Dan Finch",
         - Electron
         - Chrome Extensions
         - Mono
+        ### Testing
+        - Mocha
+        - Chai
+        - Jasmine
+        - Enzyme
+        - Sinon
       """
       td markdown """
         #### Frontend
@@ -107,7 +113,7 @@ page: layout "Tech - Dan Finch",
         - Agile & Scrum
         - Parallel, Concurrent, & Asynchronous Programming
         - REST
-        - TDD & BDD
+        - Unit testing, TDD & BDD
         - SOLID Principles
         - Distributed SCM
         - CI/CD

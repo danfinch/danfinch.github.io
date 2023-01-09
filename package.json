@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20",
-    "pocketpress": "*"
+    "pocketpress": "^0.0.8"
   },
   "scripts": {
     "build": "../pocketpress/bin/pocket",

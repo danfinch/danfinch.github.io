@@ -2,11 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   nodemon: ^2.0.20
-  pocketpress: ^0.0.6
+  pocketpress: ^0.0.8
 
 devDependencies:
   nodemon: 2.0.20
-  pocketpress: 0.0.6
+  pocketpress: 0.0.8
 
 packages:
 
@@ -237,8 +237,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pocketpress/0.0.6:
-    resolution: {integrity: sha512-9/yRU1eligsR1AFz6/oFtPhTxatrZZ/DKEwVYDICwhmVGiA5+FJGw5PSFX9IoB7mzufuGg+T2q32aEZMeHbEig==}
+  /pocketpress/0.0.8:
+    resolution: {integrity: sha512-ySEBP6rQhU+kiv0WSTTFjz3VhEFG7Hk5SgKyiur5SaSvgNWCXRSRntmsYx10Efv+xmlNR7C3GzN7CeFqJwegSA==}
     hasBin: true
     dependencies:
       escape-html: 1.0.3
