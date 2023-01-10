@@ -25,29 +25,30 @@ page: layout "Tech - Dan Finch",
   table.tech tbody do
     tr do
       td markdown """
-        #### Languages
+        #### Specialties
         - TypeScript ⭐
         - JavaScript ⭐
         - C# ⭐
         - F# ⭐
         - LiveScript ⭐
-        ##### Familiar
+        ##### Comfortable
         - Bash
         - Ruby
         - Python
         - PHP
+        - SQL
         - Lua
       """
       td markdown """
         #### Platforms
         - Node.js ⭐
+        - HTML & CSS ⭐
         - .NET ⭐
         - .NET Core ⭐
-        - HTML5 & CSS ⭐
-        - React Native
+        - Linux
         - Electron
-        - Chrome Extensions
-        - Mono
+        - Browser Extensions
+        - React Native
         #### Testing
         - Mocha
         - Chai
@@ -66,9 +67,9 @@ page: layout "Tech - Dan Finch",
         - Next.js
         - Angular
         - SCSS, Stylus, Less
-        - Tailwind
-        - Bootstrap, Foundation
-        - Lodash, RxJS, Kefir, etc.
+        - Bootstrap, Foundation, Tailwind
+        - Lodash, RxJS, Kefir, Immer
+        - NativeBase
       """
     tr do
       td markdown """
@@ -76,9 +77,13 @@ page: layout "Tech - Dan Finch",
         - Express ⭐
         - Koa ⭐
         - ADO.NET ⭐
+        - ASP.NET MVC/API ⭐
         - Fastify
         - Dapper
         - SignalR
+        - Rails
+        - Sinatra
+        - Django
       """
       td markdown """
         #### Data
@@ -100,7 +105,9 @@ page: layout "Tech - Dan Finch",
         - GCP
         - Supabase
         - Heroku
+        - Vercel
         - Netlify
+        - DigitalOcean
       """
     tr do
       td colspan: 2, markdown """
@@ -109,15 +116,19 @@ page: layout "Tech - Dan Finch",
         - Domain-driven design (DDD)
         - OOP (multiple interpretations)
         - Microservices & SOA
-        - Metaprogramming 
+        - DevOps, CI/CD, Infrastructure as Code
+        - Relational model & NoSQL
         - Agile & Scrum
-        - Parallel, Concurrent, & Asynchronous Programming
-        - REST
-        - Unit testing, TDD & BDD
+        - TDD & BDD, unit testing, & E2E testing
+        - Responsive design, mobile-first, & progressive enhancement
         - SOLID Principles
         - Distributed SCM
-        - CI/CD
+        - Parallel, Concurrent, & Asynchronous Programming
+        - REST
         - MVC
+        - IoC & Dependency Injection
+        - Metaprogramming 
+        - CQRS
       """
       td markdown """
         #### Wish List

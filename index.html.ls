@@ -21,8 +21,9 @@ page: layout "Dan Finch",
     - Consciousness of mainstream & emerging technology and trends.
     - Quickly vetting and adapting to new technologies - building and improving stacks.
     - High standards for great user and developer experiences.
-    - Eliminating friction in processes.
+    - Interacting directly and empathetically with stakeholders and end users. 
     - Managing work through all phases of a development cycle.
+    - Eliminating friction in processes through automation.
     - Understanding all the areas of a codebase and recognizing where waste can be reduced.
     - Coordinating large, complex upgrades and refactors.
   
