@@ -25,13 +25,12 @@ page: layout "Tech - Dan Finch",
   table.tech tbody do
     tr do
       td markdown """
-        #### Specialties
+        #### Languages
         - TypeScript ⭐
         - JavaScript ⭐
         - C# ⭐
         - F# ⭐
         - LiveScript ⭐
-        ##### Comfortable
         - Bash
         - Ruby
         - Python
