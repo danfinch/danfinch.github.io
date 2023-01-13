@@ -4,9 +4,13 @@ page: layout "Contact Dan Finch",
   h1 "Contact Me"
   markdown """
     I am available for consulting or employment and can be reached
-    at [danfinch@outlook.com](mailto:danfinch@outlook.com) or at [LinkedIn](https://www.linkedin.com/in/danfinch/).
+    at [danfinch@outlook.com](mailto:danfinch@outlook.com) or social media:
+    
+    - [LinkedIn](https://www.linkedin.com/in/danfinch/)
+    - [WellFound](https://angel.co/u/dan-finch-1)
+    - [UpWork](https://www.upwork.com/freelancers/~01842f94c9a1afee78)
 
-    I am a US citizen living in Slovenia (Central European Time).
+    I am a US citizen traveling in Slovenia (Central European Time).
     I can be contracted through [UpWork](https://www.upwork.com/freelancers/~01842f94c9a1afee78)
     for EMEA companies unable to sponsor local work authorization.
 
