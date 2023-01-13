@@ -13,7 +13,7 @@
     "url": "https://github.com/danfinch/danfinch.github.io"
   },
   "devDependencies": {
-    "pocketpress": "^0.0.8"
+    "pocketpress": "0.0.10"
   },
   "scripts": {
     "build": "../pocketpress/bin/pocket",
