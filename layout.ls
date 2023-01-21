@@ -32,6 +32,7 @@
               li a href: "/stories/product-catalog", "Product Catalog"
               li a href: "/stories/standing-ovation", "Standing Ovation"
               li a href: "/stories/hyperscript", "Hyperscript"
+          li a href: "/blog", "Blog"
           li a href: "/contact", "Contact"
       main do
         _content

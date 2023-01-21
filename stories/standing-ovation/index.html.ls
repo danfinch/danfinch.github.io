@@ -1,7 +1,8 @@
 layout = include "~/layout.ls"
 
-page: layout "Standing Ovation - Dan Finch",
-  h1 "Standing Ovation"
+title: "Standing Ovation"
+page: ({ title }) -> layout "#title - Dan Finch",
+  h1 title
   markdown """
     Between major projects at Coldwater Creek I was asked to rewrite a tool used by associates at
     our many retail locations. This was primarily used to look up products when a customer brought

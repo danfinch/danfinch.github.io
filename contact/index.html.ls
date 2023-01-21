@@ -1,7 +1,8 @@
 layout = include "~/layout.ls"
 
-page: layout "Contact Dan Finch",
-  h1 "Contact Me"
+title: "Contact Me"
+page: ({ title }) -> layout "#title - Dan Finch",
+  h1 title
   markdown """
     I am available for consulting or employment and can be reached
     at [danfinch@outlook.com](mailto:danfinch@outlook.com) or social media:

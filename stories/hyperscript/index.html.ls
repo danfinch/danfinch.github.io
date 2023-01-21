@@ -1,7 +1,8 @@
 layout = include "~/layout.ls"
 
-page: layout "Pre-modern Hyperscript - Dan Finch",
-  h1 "Pre-modern Hyperscript"
+title: "Pre-modern Hyperscript"
+page: ({ title }) -> layout "#title - Dan Finch",
+  h1 title
   markdown """
     I was working at Promitheia during the first days of "Web 2.0". AJAX was very popular but
     the tools to fill the gap between dynamic and static sites were not yet around. Server side

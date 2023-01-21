@@ -13,12 +13,13 @@
     "url": "https://github.com/danfinch/danfinch.github.io"
   },
   "devDependencies": {
-    "pocketpress": "0.0.10"
+    "pocketpress": "0.0.13"
   },
   "scripts": {
-    "build": "../pocketpress/bin/pocket",
-    "build:dev": "POCKET_DEV=true ../pocketpress/bin/pocket",
-    "dev": "POCKET_DEV=true ../pocketpress/bin/pocket -w",
-    "push": "sh -c 'pnpm build:dev && git add . && git commit -m \"$0\" && git push'"
+    "build": "pocket",
+    "dev": "pocket -w",
+    "edge:build": "POCKET_DEV=true ../pocketpress/bin/pocket",
+    "edge:dev": "POCKET_DEV=true ../pocketpress/bin/pocket -w",
+    "push": "sh -c 'pnpm edge:build && git add . && git commit -m \"$0\" && git push'"
   }
 }

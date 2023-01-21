@@ -1,7 +1,8 @@
 layout = include "~/layout.ls"
 
-page: layout "Coldwater Creek Product Catalog",
-  h1 "Coldwater Creek Product Catalog"
+title: "Coldwater Creek Product Catalog"
+page: ({ title }) -> layout "#title - Dan Finch",
+  h1 title
   markdown """
     ## The Project
 
