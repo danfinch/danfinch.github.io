@@ -6,6 +6,8 @@
       meta name: "darkreader-lock"
       link rel: "shortcut icon" type: "image/png" href: "/favicon.png"
       link rel: "stylesheet" href: "https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css"
+      link rel: "alternate" type: "application/atom+xml" href: "/feed.xml" title: "Atom Feed"
+      link rel: "alternate" type: "application/json" href: "/feed/json" title: "JSON Feed"
       live-reload!
       style do
         rule ".brand",

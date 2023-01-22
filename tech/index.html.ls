@@ -1,6 +1,7 @@
 layout = include "~/layout.ls"
 
 title: "Tech"
+map: true
 page: ({ title }) -> layout "#title - Dan Finch",
   style do
     rule ".stacks",

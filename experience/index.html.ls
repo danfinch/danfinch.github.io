@@ -1,6 +1,7 @@
 layout = include "~/layout.ls"
 
 title: "Experience"
+map: true
 page: ({ title }) -> layout "#title - Dan Finch",
   h1 title
   markdown """

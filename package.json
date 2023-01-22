@@ -8,12 +8,16 @@
     "name": "Dan Finch",
     "url": "http://github.com/danfinch"
   },
+  "pocket": {
+    "baseUrl": "https://da.nfin.ch",
+    "title": "Dan Finch"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/danfinch/danfinch.github.io"
   },
   "devDependencies": {
-    "pocketpress": "0.0.13"
+    "pocketpress": "0.0.16"
   },
   "scripts": {
     "build": "pocket",

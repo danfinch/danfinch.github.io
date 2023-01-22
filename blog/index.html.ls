@@ -2,6 +2,7 @@ layout = include "~/layout.ls"
 tags = include "~/tags/tags.partial.ls"
 
 title: "Blog"
+map: true
 page: ({ title, site }) -> layout "#title - Dan Finch",
   h1 title
   table tbody do
