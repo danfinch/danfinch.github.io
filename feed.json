@@ -1,0 +1,48 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Dan Finch",
+  "home_page_url": "https://da.nfin.ch",
+  "feed_url": "https://da.nfin.ch/feed.json",
+  "language": "en-US",
+  "items": [
+    {
+      "id": "https://da.nfin.ch/blog/product-catalog.html",
+      "url": "https://da.nfin.ch/blog/product-catalog.html",
+      "title": "Coldwater Creek Product Catalog",
+      "content_text": "A large, challenging project",
+      "summary": "A large, challenging project",
+      "date_published": "2021-09-25T00:00:00.000Z",
+      "tags": [
+        "story",
+        "dsl",
+        "csharp",
+        "sql"
+      ]
+    },
+    {
+      "id": "https://da.nfin.ch/blog/standing-ovation.html",
+      "url": "https://da.nfin.ch/blog/standing-ovation.html",
+      "title": "Standing Ovation",
+      "content_text": "Surprise applause for nice UX",
+      "summary": "Surprise applause for nice UX",
+      "date_published": "2021-09-24T00:00:00.000Z",
+      "tags": [
+        "story",
+        "csharp"
+      ]
+    },
+    {
+      "id": "https://da.nfin.ch/blog/old-fashioned-hyperscript.html",
+      "url": "https://da.nfin.ch/blog/old-fashioned-hyperscript.html",
+      "title": "Old Fashioned Hyperscript",
+      "content_text": "Server-side hyperscript in 2008",
+      "summary": "Server-side hyperscript in 2008",
+      "date_published": "2021-09-23T00:00:00.000Z",
+      "tags": [
+        "story",
+        "csharp",
+        "dsl"
+      ]
+    }
+  ]
+}

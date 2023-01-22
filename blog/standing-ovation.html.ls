@@ -1,7 +1,10 @@
-layout = include "~/layout.ls"
+layout = include "~/blog/post.ls"
 
-page: layout "Standing Ovation - Dan Finch",
-  h1 "Standing Ovation"
+title: "Standing Ovation"
+tags: <[ story csharp ]>
+date: "2021-09-24"
+summary: "Surprise applause for nice UX"
+page: (meta) -> layout meta,
   markdown """
     Between major projects at Coldwater Creek I was asked to rewrite a tool used by associates at
     our many retail locations. This was primarily used to look up products when a customer brought

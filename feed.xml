@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Dan Finch</title>
+	<link href="https://da.nfin.ch/feed.xml" rel="self" />
+	<link href="https://da.nfin.ch/" />
+	<id>https://da.nfin.ch</id>
+	<updated>2021-09-25T00:00:00.000Z</updated>
+  <generator uri="https://github.com/errilaz/pocketpress" version="1.0">
+    PocketPress
+  </generator>
+  <entry>
+    <id>https://da.nfin.ch/blog/product-catalog.html</id>
+    <title>Coldwater Creek Product Catalog</title>
+    <summary>A large, challenging project</summary>
+    <updated>2021-09-25T00:00:00.000Z</updated>
+    <content>https://da.nfin.ch/blog/product-catalog.html</content>
+  </entry>
+  <entry>
+    <id>https://da.nfin.ch/blog/standing-ovation.html</id>
+    <title>Standing Ovation</title>
+    <summary>Surprise applause for nice UX</summary>
+    <updated>2021-09-24T00:00:00.000Z</updated>
+    <content>https://da.nfin.ch/blog/standing-ovation.html</content>
+  </entry>
+  <entry>
+    <id>https://da.nfin.ch/blog/old-fashioned-hyperscript.html</id>
+    <title>Old Fashioned Hyperscript</title>
+    <summary>Server-side hyperscript in 2008</summary>
+    <updated>2021-09-23T00:00:00.000Z</updated>
+    <content>https://da.nfin.ch/blog/old-fashioned-hyperscript.html</content>
+  </entry>
+</feed>

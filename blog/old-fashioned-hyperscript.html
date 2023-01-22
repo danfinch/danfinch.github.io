@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>
-      Contact Me - Dan Finch
+      Old Fashioned Hyperscript - Dan Finch
     </title>
     <meta name="darkreader-lock">
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
@@ -98,21 +98,57 @@
       
     </nav>
     <main>
+      <style>
+        h1 {
+          margin-bottom: 0
+        }
+        
+      </style>
       <h1>
-        Contact Me
+        Old Fashioned Hyperscript
       </h1>
-      <p>I am available for consulting or employment and can be reached
-      at <a href="mailto:danfinch@outlook.com">danfinch@outlook.com</a> or social media:</p>
-      <ul>
-      <li><a href="https://www.linkedin.com/in/danfinch/">LinkedIn</a></li>
-      <li><a href="https://angel.co/u/dan-finch-1">WellFound</a></li>
-      <li><a href="https://www.upwork.com/freelancers/~01842f94c9a1afee78">UpWork</a></li>
-      </ul>
-      <p>I am a US citizen traveling in Slovenia (Central European Time).
-      I can be contracted through <a href="https://www.upwork.com/freelancers/~01842f94c9a1afee78">UpWork</a>
-      for EMEA companies unable to sponsor local work authorization.</p>
-      <p>My open source portfolio is at <a href="https://errilaz.org">errilaz.org</a>.</p>
-      <p>My one-page résumé is available to <a href="/contact/Dan%20Finch%20-%20CV.pdf">download in PDF</a>.</p>
+      <aside>
+        Tags: <a href="/tags/story.html">
+          story
+        </a>
+        <a href="/tags/csharp.html">
+          csharp
+        </a>
+        <a href="/tags/dsl.html">
+          dsl
+        </a>
+        
+      </aside>
+      <div>
+        by <a href="/">
+          Dan
+        </a>
+         at 9/23/2021
+      </div>
+      <hr>
+      <p>I was working at Promitheia during the first days of &quot;Web 2.0&quot;. AJAX was very popular but
+      the tools to fill the gap between dynamic and static sites were not yet around. Server side
+      rendering was necessary, but I still wanted to provide very interactive pages without adding
+      a completely different client-side framework for rendering markup.</p>
+      <p>I settled on what some called AHAH - Asynchronous HTML And HTTP - where the server rendered
+      partial views via XMLHttpRequests which were inserted into the DOM. I made use of a number
+      of non-standard HTML attributes to declaratively wire up these insertions. As a result very
+      few widgets needed custom code. jQuery was patched at startup to rebind events when content
+      was inserted. I was able to achieve performant and flashy interactions with careful use of
+      jQuery (it is possible!) long before they became commonplace.</p>
+      <p>Working with views in ASP.NET prior to the release of Razor was painful: unmaintainable soup
+      markup was everywhere. As a result, many people were creating their own view engines. I did
+      not have the bandwidth to create and maintain a custom view engine, let alone make it work
+      with the IDE. </p>
+      <p>I decided to create a C#-based fluent DSL and write the views directly in the host language
+      itself. People now call this hyperscript, and it is fairly common, but at the time (2008-ish),
+      other programmers thought I was insane! This had many benefits - I did not have two syntaxes
+      mixed up in the same file, I had all the support of my IDE (autocomplete, type checking), and
+      I could package components as DLL files. Layout views could simply be written as methods with
+      parameters for the &quot;holes&quot;.</p>
+      <p>In debug mode my view engine would set up a file watcher and auto-reload views as I worked on
+      them; another perk which was scoffed at then but is now looked at as a standard feature of a web
+      stack.</p>
       
     </main>
     <footer>

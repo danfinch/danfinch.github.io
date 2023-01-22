@@ -1,6 +1,8 @@
 layout = include "~/layout.ls"
 
-page: layout "Tech - Dan Finch",
+title: "Tech"
+map: true
+page: ({ title }) -> layout "#title - Dan Finch",
   style do
     rule ".stacks",
       text-align "center"
@@ -16,7 +18,7 @@ page: layout "Tech - Dan Finch",
       border "solid 1px #404040"
     rule "table.tech h4, table.tech h5",
       margin-top "1rem"
-  h1 "Tech"
+  h1 title
   div.stacks do
     img src: "images/typescript.svg" alt: "TypeScript" width: "128" height: "128"
     img src: "images/reactjs.svg" alt: "ReactJS" width: "144" height: "128"

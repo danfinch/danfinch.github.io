@@ -3,11 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <title>
-      Pre-modern Hyperscript - Dan Finch
+      Articles tagged &quot;sql&quot; - Dan Finch
     </title>
     <meta name="darkreader-lock">
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css">
+    <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Atom Feed">
+    <link rel="alternate" type="application/json" href="/feed/json" title="JSON Feed">
     <style>
       .brand {
         color: white;
@@ -58,25 +60,31 @@
           </a>
           <ul>
             <li>
-              <a href="/stories/product-catalog">
+              <a href="/blog/product-catalog.html">
                 Product Catalog
               </a>
               
             </li>
             <li>
-              <a href="/stories/standing-ovation">
+              <a href="/blog/standing-ovation.html">
                 Standing Ovation
               </a>
               
             </li>
             <li>
-              <a href="/stories/hyperscript">
+              <a href="/blog/old-fashioned-hyperscript.html">
                 Hyperscript
               </a>
               
             </li>
             
           </ul>
+          
+        </li>
+        <li>
+          <a href="/blog">
+            Blog
+          </a>
           
         </li>
         <li>
@@ -91,31 +99,17 @@
     </nav>
     <main>
       <h1>
-        Pre-modern Hyperscript
+        Articles tagged &quot;sql&quot;
       </h1>
-      <p>I was working at Promitheia during the first days of &quot;Web 2.0&quot;. AJAX was very popular but
-      the tools to fill the gap between dynamic and static sites were not yet around. Server side
-      rendering was necessary, but I still wanted to provide very interactive pages without adding
-      a completely different client-side framework for rendering markup.</p>
-      <p>I settled on what some called AHAH - Asynchronous HTML And HTTP - where the server rendered
-      partial views via XMLHttpRequests which were inserted into the DOM. I made use of a number
-      of non-standard HTML attributes to declaratively wire up these insertions. As a result very
-      few widgets needed custom code. jQuery was patched at startup to rebind events when content
-      was inserted. I was able to achieve performant and flashy interactions with careful use of
-      jQuery (it is possible!) long before they became commonplace.</p>
-      <p>Working with views in ASP.NET prior to the release of Razor was painful: unmaintainable soup
-      markup was everywhere. As a result, many people were creating their own view engines. I did
-      not have the bandwidth to create and maintain a custom view engine, let alone make it work
-      with the IDE. </p>
-      <p>I decided to create a C#-based fluent DSL and write the views directly in the host language
-      itself. People now call this hyperscript, and it is fairly common, but at the time (2008-ish),
-      other programmers thought I was insane! This had many benefits - I did not have two syntaxes
-      mixed up in the same file, I had all the support of my IDE (autocomplete, type checking), and
-      I could package components as DLL files. Layout views could simply be written as methods with
-      parameters for the &quot;holes&quot;.</p>
-      <p>In debug mode my view engine would set up a file watcher and auto-reload views as I worked on
-      them; another perk which was scoffed at then but is now looked at as a standard feature of a web
-      stack.</p>
+      <ul>
+        <li>
+          <a href="/blog/product-catalog.html">
+            Coldwater Creek Product Catalog
+          </a>
+          
+        </li>
+        
+      </ul>
       
     </main>
     <footer>

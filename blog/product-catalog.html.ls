@@ -1,7 +1,10 @@
-layout = include "~/layout.ls"
+layout = include "~/blog/post.ls"
 
-page: layout "Coldwater Creek Product Catalog",
-  h1 "Coldwater Creek Product Catalog"
+title: "Coldwater Creek Product Catalog"
+tags: <[ story dsl csharp sql ]>
+summary: "A large, challenging project"
+date: "2021-09-25"
+page: (meta) -> layout meta,
   markdown """
     ## The Project
 

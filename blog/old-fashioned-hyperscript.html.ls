@@ -1,7 +1,10 @@
-layout = include "~/layout.ls"
+layout = include "~/blog/post.ls"
 
-page: layout "Pre-modern Hyperscript - Dan Finch",
-  h1 "Pre-modern Hyperscript"
+title: "Old Fashioned Hyperscript"
+tags: <[ story csharp dsl ]>
+date: "2021-09-23"
+summary: "Server-side hyperscript in 2008"
+page: (meta) -> layout meta,
   markdown """
     I was working at Promitheia during the first days of "Web 2.0". AJAX was very popular but
     the tools to fill the gap between dynamic and static sites were not yet around. Server side

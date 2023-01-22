@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  pocketpress: 0.0.10
+  pocketpress: 0.0.16
 
 devDependencies:
-  pocketpress: 0.0.10
+  pocketpress: 0.0.16
 
 packages:
 
@@ -133,8 +133,8 @@ packages:
       source-map-support: 0.5.6
     dev: true
 
-  /marked/4.2.5:
-    resolution: {integrity: sha512-jPueVhumq7idETHkb203WDD4fMA3yV9emQ5vLwop58lu8bTclMghBWcYAavlDqIEMaisADinV1TooIFCfqOsYQ==}
+  /marked/4.2.12:
+    resolution: {integrity: sha512-yr8hSKa3Fv4D3jdZmtMMPghgVt6TWbk86WQaWhDloQjRSQhMMYCAro7jP7VDJrjjdV8pxVxMssXS8B8Y5DZ5aw==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
@@ -161,8 +161,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pocketpress/0.0.10:
-    resolution: {integrity: sha512-S/1fZfzyOaxEtOKVNeUL8Ciayu/hPwNNhCLgkWhrSd1KMyBj9S6XiZxrkrH+rbap+xVcSWWbN40IV8ybOYwKaA==}
+  /pocketpress/0.0.16:
+    resolution: {integrity: sha512-FZoRPfHwsZ7M6p7bWJ5b26ml+/LH/DhhmZjzyRAzmm06ZGNjrH453jrPmeuGJPOzFoHzSgGfgtDcuOR77IwT/g==}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
@@ -170,7 +170,7 @@ packages:
       html-tags: 3.2.0
       known-css-properties: 0.26.0
       livescript: 1.6.0
-      marked: 4.2.5
+      marked: 4.2.12
       toptions: 1.0.2
     dev: true
 
