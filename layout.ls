@@ -21,19 +21,19 @@
           list-style-type "\"⪧ \""
     body do
       nav do
-        a.brand href: "/", "Dan Finch"
+        a.brand href: (link-to "/"), "Dan Finch"
         ul do
-          li a href: "/", "About"
-          li a href: "/experience", "Experience"
-          li a href: "/tech", "Tech"
+          li a href: (link-to "/"), "About"
+          li a href: (link-to "/experience/"), "Experience"
+          li a href: (link-to "/tech/"), "Tech"
           li do
             a "Stories"
             ul do
-              li a href: "/stories/product-catalog", "Product Catalog"
-              li a href: "/stories/standing-ovation", "Standing Ovation"
-              li a href: "/stories/hyperscript", "Hyperscript"
-          li a href: "/blog", "Blog"
-          li a href: "/contact", "Contact"
+              li a href: (link-to "/blog/product-catalog.html"), "Product Catalog"
+              li a href: (link-to "/blog/standing-ovation.html"), "Standing Ovation"
+              li a href: (link-to "/blog/old-fashioned-hyperscript.html"), "Hyperscript"
+          li a href: (link-to "/blog/"), "Blog"
+          li a href: (link-to "/contact/"), "Contact"
       main do
         _content
       footer do

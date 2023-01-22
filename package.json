@@ -20,6 +20,8 @@
     "dev": "pocket -w",
     "edge:build": "POCKET_DEV=true ../pocketpress/bin/pocket",
     "edge:dev": "POCKET_DEV=true ../pocketpress/bin/pocket -w",
+    "bench:node": "time ../pocketpress/bin/pocket",
+    "bench:bun": "POCKET_DEV=bun time ../pocketpress/bin/pocket",
     "push": "sh -c 'pnpm edge:build && git add . && git commit -m \"$0\" && git push'"
   }
 }
