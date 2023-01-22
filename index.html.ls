@@ -3,7 +3,7 @@ layout = include "layout.ls"
 title: "About Me"
 map: true
 page: layout "Dan Finch",
-  h1 title
+  h1 "About Me"
   markdown """
     I've learned to make code **small, simple, and readable**. My aim is prolific and
     expeditious code output while maintaining quality. I make loosely-coupled components,
