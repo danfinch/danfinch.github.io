@@ -3,7 +3,7 @@
 	<title>Dan Finch</title>
 	<link href="https://da.nfin.ch/feed.xml" rel="self" />
 	<link href="https://da.nfin.ch/" />
-	<id>https://da.nfin.ch</id>
+	<id>https://da.nfin.ch/</id>
 	<updated>2021-09-25T00:00:00.000Z</updated>
   <generator uri="https://github.com/errilaz/pocketpress" version="1.0">
     PocketPress
@@ -14,6 +14,7 @@
     <summary>A large, challenging project</summary>
     <updated>2021-09-25T00:00:00.000Z</updated>
     <content>https://da.nfin.ch/blog/product-catalog.html</content>
+    <author><name>Unknown</name></author>
   </entry>
   <entry>
     <id>https://da.nfin.ch/blog/standing-ovation.html</id>
@@ -21,6 +22,7 @@
     <summary>Surprise applause for nice UX</summary>
     <updated>2021-09-24T00:00:00.000Z</updated>
     <content>https://da.nfin.ch/blog/standing-ovation.html</content>
+    <author><name>Unknown</name></author>
   </entry>
   <entry>
     <id>https://da.nfin.ch/blog/old-fashioned-hyperscript.html</id>
@@ -28,5 +30,6 @@
     <summary>Server-side hyperscript in 2008</summary>
     <updated>2021-09-23T00:00:00.000Z</updated>
     <content>https://da.nfin.ch/blog/old-fashioned-hyperscript.html</content>
+    <author><name>Unknown</name></author>
   </entry>
 </feed>
