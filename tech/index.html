@@ -106,18 +106,30 @@
         .stacks img {
           margin-right: 10px
         }
-        table.tech {
-          display: table;
-          width: 100%;
+        .cards {
+          display: grid;
+          gap: 1px;
           margin-top: 30px
         }
-        table.tech td {
-          padding-left: 20px;
-          padding-right: 20px;
-          border: solid 1px #404040
-        }
-        table.tech h4, table.tech h5 {
+        .cards h4, .cards h5 {
           margin-top: 1rem
+        }
+        @media (min-width: 600px) {
+          .cards {
+            grid-template-columns: repeat(2, 1fr)
+          }
+          
+        }
+        @media (min-width: 900px) {
+          .cards {
+            grid-template-columns: repeat(3, 1fr)
+          }
+          
+        }
+        .card {
+          padding-left: 10px;
+          padding-right: 10px;
+          outline: solid 1px #808080
         }
         
       </style>
@@ -125,17 +137,15 @@
         Tech
       </h1>
       <div class="stacks">
-        <img src="images/typescript.svg" alt="TypeScript" width="128" height="128">
-        <img src="images/reactjs.svg" alt="ReactJS" width="144" height="128">
-        <img src="images/nodejs.svg" alt="NodeJS" width="209" height="128">
-        <img src="images/netcore.svg" alt=".NET Core" width="128" height="128">
+        <img src="images/typescript.svg" alt="TypeScript" width="20%" height="auto">
+        <img src="images/reactjs.svg" alt="ReactJS" width="20%" height="auto">
+        <img src="images/nodejs.svg" alt="NodeJS" width="20%" height="auto">
+        <img src="images/netcore.svg" alt=".NET Core" width="20%" height="auto">
         
       </div>
-      <table class="tech">
-        <tbody>
-          <tr>
-            <td>
-              <h4 id="languages">Languages</h4>
+      <div class="cards">
+        <div class="card">
+          <h4 id="languages">Languages</h4>
 <ul>
 <li>TypeScript ⭐</li>
 <li>JavaScript ⭐</li>
@@ -150,9 +160,9 @@
 <li>Lua</li>
 </ul>
 
-            </td>
-            <td>
-              <h4 id="platforms">Platforms</h4>
+        </div>
+        <div class="card">
+          <h4 id="platforms">Platforms</h4>
 <ul>
 <li>Node.js ⭐</li>
 <li>HTML &amp; CSS ⭐</li>
@@ -172,9 +182,9 @@
 <li>Sinon</li>
 </ul>
 
-            </td>
-            <td>
-              <h4 id="frontend">Frontend</h4>
+        </div>
+        <div class="card">
+          <h4 id="frontend">Frontend</h4>
 <ul>
 <li>React ⭐</li>
 <li>Babel ⭐</li>
@@ -190,12 +200,9 @@
 <li>NativeBase</li>
 </ul>
 
-            </td>
-            
-          </tr>
-          <tr>
-            <td>
-              <h4 id="backend">Backend</h4>
+        </div>
+        <div class="card">
+          <h4 id="backend">Backend</h4>
 <ul>
 <li>Express ⭐</li>
 <li>Koa ⭐</li>
@@ -209,9 +216,9 @@
 <li>Django</li>
 </ul>
 
-            </td>
-            <td>
-              <h4 id="data">Data</h4>
+        </div>
+        <div class="card">
+          <h4 id="data">Data</h4>
 <ul>
 <li>Postgres ⭐</li>
 <li>Redis ⭐</li>
@@ -222,9 +229,9 @@
 <li>Sql Server</li>
 </ul>
 
-            </td>
-            <td>
-              <h4 id="cloud">Cloud</h4>
+        </div>
+        <div class="card">
+          <h4 id="cloud">Cloud</h4>
 <ul>
 <li>Docker</li>
 <li>AWS</li>
@@ -239,12 +246,9 @@
 <li>DigitalOcean</li>
 </ul>
 
-            </td>
-            
-          </tr>
-          <tr>
-            <td colspan="2">
-              <h4 id="methodologies--paradigms">Methodologies &amp; Paradigms</h4>
+        </div>
+        <div class="card" style="grid-column: span 2">
+          <h4 id="methodologies--paradigms">Methodologies &amp; Paradigms</h4>
 <ul>
 <li>Functional Programming &amp; FRP</li>
 <li>Domain-driven design (DDD)</li>
@@ -265,9 +269,9 @@
 <li>CQRS</li>
 </ul>
 
-            </td>
-            <td>
-              <h4 id="wish-list">Wish List</h4>
+        </div>
+        <div class="card">
+          <h4 id="wish-list">Wish List</h4>
 <ul>
 <li>Zig</li>
 <li>ReScript</li>
@@ -277,13 +281,9 @@
 <li>TurboPack</li>
 </ul>
 
-            </td>
-            
-          </tr>
-          
-        </tbody>
+        </div>
         
-      </table>
+      </div>
       <p>
         ⭐ = deep experience
       </p>
