@@ -29,12 +29,6 @@
           li a href: (link-to "/"), "About"
           li a href: (link-to "/experience/"), "Experience"
           li a href: (link-to "/tech/"), "Tech"
-          li do
-            a "Stories"
-            ul do
-              li a href: (link-to "/blog/product-catalog.html"), "Product Catalog"
-              li a href: (link-to "/blog/standing-ovation.html"), "Standing Ovation"
-              li a href: (link-to "/blog/old-fashioned-hyperscript.html"), "Hyperscript"
           li a href: (link-to "/blog/"), "Blog"
           li a href: (link-to "/contact/"), "Contact"
       main do
