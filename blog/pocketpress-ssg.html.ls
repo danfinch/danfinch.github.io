@@ -33,7 +33,7 @@ page: (meta) -> layout meta,
 
     I started by scanning files and then prefixing them with a header which contained
     every HTML tag and CSS property as functions returning abstract nodes, then reading
-    the tree and printing. This allowed me to create very nice-looking templates:
+    the tree and rendering markup. This allowed me to create very nice-looking templates:
   """
   highlight \livescript """
     html lang: "en",
