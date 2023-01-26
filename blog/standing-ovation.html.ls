@@ -1,7 +1,7 @@
-layout = include "~/blog/post.layout.ls"
+layout = include "post.layout.ls"
 
 title: "Standing Ovation"
-tags: <[ story csharp ]>
+tags: <[ story csharp web ]>
 date: "2021-09-24"
 summary: "Surprise applause for nice UX"
 page: (meta) -> layout meta,

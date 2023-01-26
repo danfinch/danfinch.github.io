@@ -6,6 +6,20 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://da.nfin.ch/blog/pocketpress-ssg.html",
+      "url": "https://da.nfin.ch/blog/pocketpress-ssg.html",
+      "title": "Introducing PocketPress SSG",
+      "content_text": "Improving my portfolio site got out of hand",
+      "summary": "Improving my portfolio site got out of hand",
+      "date_published": "2023-01-26T00:00:00.000Z",
+      "tags": [
+        "pocketpress",
+        "livescript",
+        "web",
+        "dsl"
+      ]
+    },
+    {
       "id": "https://da.nfin.ch/blog/product-catalog.html",
       "url": "https://da.nfin.ch/blog/product-catalog.html",
       "title": "Coldwater Creek Product Catalog",
@@ -16,7 +30,8 @@
         "story",
         "dsl",
         "csharp",
-        "sql"
+        "sql",
+        "web"
       ]
     },
     {
@@ -28,7 +43,8 @@
       "date_published": "2021-09-24T00:00:00.000Z",
       "tags": [
         "story",
-        "csharp"
+        "csharp",
+        "web"
       ]
     },
     {
@@ -41,7 +57,8 @@
       "tags": [
         "story",
         "csharp",
-        "dsl"
+        "dsl",
+        "web"
       ]
     }
   ]

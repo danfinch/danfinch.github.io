@@ -1,7 +1,7 @@
-layout = include "~/blog/post.layout.ls"
+layout = include "post.layout.ls"
 
 title: "Old Fashioned Hyperscript"
-tags: <[ story csharp dsl ]>
+tags: <[ story csharp dsl web ]>
 date: "2021-09-23"
 summary: "Server-side hyperscript in 2008"
 page: (meta) -> layout meta,

@@ -17,6 +17,7 @@
     "url": "https://github.com/danfinch/danfinch.github.io"
   },
   "devDependencies": {
+    "highlight.js": "^11.7.0",
     "pocketpress": "0.0.25"
   },
   "scripts": {
@@ -27,5 +28,8 @@
     "bench:node": "time ../pocketpress/bin/pocket",
     "bench:bun": "POCKET_DEV=bun time ../pocketpress/bin/pocket",
     "push": "sh -c 'pnpm edge:build && git add . && git commit -m \"$0\" && git push'"
+  },
+  "dependencies": {
+    "bahunya": "github:Kimeiga/bahunya"
   }
 }

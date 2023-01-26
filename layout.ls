@@ -6,10 +6,11 @@
       meta name: "darkreader-lock"
       meta name: "viewport" content: "width=device-width, initial-scale=1.0" 
       link rel: "shortcut icon" type: "image/png" href: "/favicon.png"
-      link rel: "stylesheet" href: "https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css"
       link rel: "alternate" type: "application/atom+xml" href: "/feed.xml" title: "Atom Feed"
       link rel: "alternate" type: "application/json" href: "/feed.json" title: "JSON Feed"
       live-reload!
+      style raw load-file "~/node_modules/bahunya/dist/bahunya.min.css"
+      style raw load-file "~/node_modules/highlight.js/styles/obsidian.css"
       style do
         rule ".brand",
           color "white"
