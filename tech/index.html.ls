@@ -14,9 +14,9 @@ page: ({ title }) -> layout "#title - Dan Finch",
       margin-top "30px"
     rule ".cards h4, .cards h5",
       margin-top "1rem"
-    media "(min-width: 600px)", rule ".cards",
+    $media "(min-width: 600px)", rule ".cards",
       grid-template-columns "repeat(2, 1fr)"
-    media "(min-width: 900px)", rule ".cards",
+    $media "(min-width: 900px)", rule ".cards",
       grid-template-columns "repeat(3, 1fr)"
     rule ".card",
       padding-left "10px"

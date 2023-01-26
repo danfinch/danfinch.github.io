@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  pocketpress: 0.0.21
+  pocketpress: 0.0.25
 
 devDependencies:
-  pocketpress: 0.0.21
+  pocketpress: 0.0.25
 
 packages:
 
@@ -45,6 +45,12 @@ packages:
       readdirp: 3.6.0
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /cssesc/3.0.0:
+    resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
+    engines: {node: '>=4'}
+    hasBin: true
     dev: true
 
   /deep-is/0.1.4:
@@ -161,11 +167,12 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pocketpress/0.0.21:
-    resolution: {integrity: sha512-IkNkSWXnJJVWV71CKVw3qH1v7WOD47tT+jzAMoAqiM33+4VfCZs9nHr7+KDAfPaM8U0c1QNjGf1X1pJwhm4hWQ==}
+  /pocketpress/0.0.25:
+    resolution: {integrity: sha512-zECVbt6bbBZyydGl1BkwfLZFmOGmrRbG/QFk+J0lmEpYk5wAOM0rcN/+m2CHXPkZYPZNACjWxWRyIrV69arn6w==}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
+      cssesc: 3.0.0
       escape-html: 1.0.3
       html-tags: 3.2.0
       known-css-properties: 0.26.0
