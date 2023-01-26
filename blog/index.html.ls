@@ -13,5 +13,6 @@ page: ({ title, site }) -> layout "#title - Dan Finch",
       .map -> tr do
         th width: 200, a href: (link-to it.url), it.title
         td it.summary
+        td it.date.to-locale-date-string!
   h2 "Tags"
   tags site.tags

@@ -13,6 +13,6 @@ layout = include "~/layout.ls"
     div "by ",
       a href: (link-to "/"), "Dan"
       " at "
-      _meta.date.toLocaleDateString()
+      _meta.date.to-locale-date-string()
     hr!
     _content
