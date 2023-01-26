@@ -1,4 +1,4 @@
-layout = include "~/blog/post.ls"
+layout = include "~/blog/post.layout.ls"
 
 title: "Old Fashioned Hyperscript"
 tags: <[ story csharp dsl ]>

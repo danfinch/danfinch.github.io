@@ -1,4 +1,4 @@
-layout = include "~/blog/post.ls"
+layout = include "~/blog/post.layout.ls"
 
 title: "Standing Ovation"
 tags: <[ story csharp ]>

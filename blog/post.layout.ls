@@ -7,7 +7,9 @@ layout = include "~/layout.ls"
         margin-bottom 0
     h1 _meta.title
       aside "Tags: ",
-        _meta.tags.map -> a (href: link-to "/tags/#it.html"), it
+        _meta.tags.map -> span do
+          a (href: link-to "/tags/#it.html"), it
+          " "
     div "by ",
       a href: (link-to "/"), "Dan"
       " at "

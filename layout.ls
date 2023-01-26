@@ -16,8 +16,8 @@
           font-size "24px"
           font-weight "bold"
           margin-right "30px !important"
-        rule ".brand:hover",
-          text-decoration "none"
+          rule ":hover",
+            text-decoration "none"
         rule ".social",
           float "right"
         rule "main li",

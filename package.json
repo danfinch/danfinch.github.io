@@ -17,7 +17,7 @@
     "url": "https://github.com/danfinch/danfinch.github.io"
   },
   "devDependencies": {
-    "pocketpress": "0.0.16"
+    "pocketpress": "0.0.21"
   },
   "scripts": {
     "build": "pocket",

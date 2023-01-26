@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  pocketpress: 0.0.16
+  pocketpress: 0.0.21
 
 devDependencies:
-  pocketpress: 0.0.16
+  pocketpress: 0.0.21
 
 packages:
 
@@ -161,8 +161,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pocketpress/0.0.16:
-    resolution: {integrity: sha512-FZoRPfHwsZ7M6p7bWJ5b26ml+/LH/DhhmZjzyRAzmm06ZGNjrH453jrPmeuGJPOzFoHzSgGfgtDcuOR77IwT/g==}
+  /pocketpress/0.0.21:
+    resolution: {integrity: sha512-IkNkSWXnJJVWV71CKVw3qH1v7WOD47tT+jzAMoAqiM33+4VfCZs9nHr7+KDAfPaM8U0c1QNjGf1X1pJwhm4hWQ==}
     hasBin: true
     dependencies:
       chokidar: 3.5.3

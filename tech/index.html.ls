@@ -6,8 +6,8 @@ page: ({ title }) -> layout "#title - Dan Finch",
   style do
     rule ".stacks",
       text-align "center"
-    rule ".stacks img",
-      margin-right "10px"
+      rule "img",
+        margin-right "10px"
     rule ".cards",
       display "grid"
       gap "1px"
