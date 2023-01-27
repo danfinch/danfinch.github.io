@@ -4,6 +4,7 @@ title: "Old Fashioned Hyperscript"
 tags: <[ story csharp dsl web ]>
 date: "2021-09-23"
 summary: "Server-side hyperscript in 2008"
+author: "Dan Finch"
 page: (meta) -> layout meta,
   markdown """
     I was working at Promitheia during the first days of "Web 2.0". AJAX was very popular but

@@ -4,6 +4,7 @@ title: "Standing Ovation"
 tags: <[ story csharp web ]>
 date: "2021-09-24"
 summary: "Surprise applause for nice UX"
+author: "Dan Finch"
 page: (meta) -> layout meta,
   markdown """
     Between major projects at Coldwater Creek I was asked to rewrite a tool used by associates at

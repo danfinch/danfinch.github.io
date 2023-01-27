@@ -5,6 +5,7 @@ title: "Introducing PocketPress SSG"
 tags: <[ pocketpress livescript web dsl ]>
 summary: "Improving my portfolio site got out of hand"
 date: "2023-01-26"
+author: "Dan Finch"
 page: (meta) -> layout meta,
   markdown """
     **TL;DR**: PocketPress is available on [GitHub](https://github.com/errilaz/pocketpress)

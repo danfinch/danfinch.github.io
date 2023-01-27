@@ -4,6 +4,7 @@ title: "Coldwater Creek Product Catalog"
 tags: <[ story dsl csharp sql web ]>
 summary: "A large, challenging project"
 date: "2021-09-25"
+author: "Dan Finch"
 page: (meta) -> layout meta,
   markdown """
     ## The Project

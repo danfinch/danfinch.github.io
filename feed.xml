@@ -12,32 +12,40 @@
     <id>https://da.nfin.ch/blog/pocketpress-ssg.html</id>
     <title>Introducing PocketPress SSG</title>
     <summary>Improving my portfolio site got out of hand</summary>
+    <link>https://da.nfin.ch/blog/pocketpress-ssg.html</link>
     <updated>2023-01-26T00:00:00.000Z</updated>
-    <content>https://da.nfin.ch/blog/pocketpress-ssg.html</content>
-    <author><name>Unknown</name></author>
+    <content>
+      Improving my portfolio site got out of hand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://da.nfin.ch/blog/pocketpress-ssg.html&quot;&gt;Read more&lt;/a&gt;</content>
+    <author><name>Dan Finch</name></author>
   </entry>
   <entry>
     <id>https://da.nfin.ch/blog/product-catalog.html</id>
     <title>Coldwater Creek Product Catalog</title>
     <summary>A large, challenging project</summary>
+    <link>https://da.nfin.ch/blog/product-catalog.html</link>
     <updated>2021-09-25T00:00:00.000Z</updated>
-    <content>https://da.nfin.ch/blog/product-catalog.html</content>
-    <author><name>Unknown</name></author>
+    <content>
+      A large, challenging project&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://da.nfin.ch/blog/product-catalog.html&quot;&gt;Read more&lt;/a&gt;</content>
+    <author><name>Dan Finch</name></author>
   </entry>
   <entry>
     <id>https://da.nfin.ch/blog/standing-ovation.html</id>
     <title>Standing Ovation</title>
     <summary>Surprise applause for nice UX</summary>
+    <link>https://da.nfin.ch/blog/standing-ovation.html</link>
     <updated>2021-09-24T00:00:00.000Z</updated>
-    <content>https://da.nfin.ch/blog/standing-ovation.html</content>
-    <author><name>Unknown</name></author>
+    <content>
+      Surprise applause for nice UX&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://da.nfin.ch/blog/standing-ovation.html&quot;&gt;Read more&lt;/a&gt;</content>
+    <author><name>Dan Finch</name></author>
   </entry>
   <entry>
     <id>https://da.nfin.ch/blog/old-fashioned-hyperscript.html</id>
     <title>Old Fashioned Hyperscript</title>
     <summary>Server-side hyperscript in 2008</summary>
+    <link>https://da.nfin.ch/blog/old-fashioned-hyperscript.html</link>
     <updated>2021-09-23T00:00:00.000Z</updated>
-    <content>https://da.nfin.ch/blog/old-fashioned-hyperscript.html</content>
-    <author><name>Unknown</name></author>
+    <content>
+      Server-side hyperscript in 2008&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://da.nfin.ch/blog/old-fashioned-hyperscript.html&quot;&gt;Read more&lt;/a&gt;</content>
+    <author><name>Dan Finch</name></author>
   </entry>
 </feed>

@@ -5,10 +5,8 @@ specifiers:
   highlight.js: ^11.7.0
   pocketpress: 0.0.25
 
-dependencies:
-  bahunya: github.com/Kimeiga/bahunya/19f6dee7dff7aa77a9e66d9094e7674911738adb
-
 devDependencies:
+  bahunya: github.com/Kimeiga/bahunya/19f6dee7dff7aa77a9e66d9094e7674911738adb
   highlight.js: 11.7.0
   pocketpress: 0.0.25
 
@@ -243,4 +241,4 @@ packages:
     resolution: {tarball: https://codeload.github.com/Kimeiga/bahunya/tar.gz/19f6dee7dff7aa77a9e66d9094e7674911738adb}
     name: bahunya
     version: 2.0.0
-    dev: false
+    dev: true
