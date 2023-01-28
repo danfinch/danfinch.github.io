@@ -96,7 +96,7 @@ page: (meta) -> layout meta,
       openssl make gcc g++ openssl-dev linux-pam-dev
 
     WORKDIR /opt
-    RUN \
+    RUN \\
       curl -L  https://github.com/ngircd/ngircd/archive/refs/tags/rel-26.1.tar.gz -o ngircd.tgz && \\
       tar xvf ngircd.tgz && \\
       mv /opt/ngircd-rel-26.1 /opt/ngircd
@@ -108,13 +108,19 @@ page: (meta) -> layout meta,
       make && \\
       make install
 
+    WORKDIR /scripts
+
+    RUN \\
+      rm /opt/ngircd.tgz && \\
+      rm -rf /opt/ngircd
+
     COPY scripts /scripts
     COPY etc/pam.d /etc/pam.d
 
     EXPOSE 6667
     EXPOSE 6697
 
-    VOLUME ["/config"]
+    VOLUME ["/config/ngircd"]
 
     CMD [ "/scripts/start.sh" ]
   """
@@ -158,6 +164,9 @@ page: (meta) -> layout meta,
     This can be used for any of the many servers and apps that support PAM
     authentication.
 
+    I've published the Docker image at [errilaz/emauth-ngircd](https://hub.docker.com/repository/docker/errilaz/emauth-ngircd)
+    and source code is on [GitHub](https://github.com/errilaz/emauth/tree/master/images/ngircd).
+
     ## Other Bridges
 
     Some servers also support hitting an HTTP proxy or SSH daemon to verify
@@ -168,7 +177,10 @@ page: (meta) -> layout meta,
     You could use a full IMAP library to achieve this, but as the OpenSSL
     example shows, it is very simple with a TLS socket. I have tested this 
     TypeScript code and plan to use it for any other bridges I create in the
-    future (which I will share):
+    future (which I will share).
+
+    I've also published this on [NPM](https://www.npmjs.com/package/emauth-authenticate)
+    and [GitHub](https://github.com/errilaz/emauth/tree/master/libraries/authenticate).
   """
   highlight \typescript """
     import tls from "tls"

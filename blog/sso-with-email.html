@@ -68,10 +68,10 @@ I also wrote a Docker image to automate this:</p>
   openssl make gcc g++ openssl-dev linux-pam-dev</span>
 
 <span class="hljs-keyword">WORKDIR</span><span class="language-bash"> /opt</span>
-<span class="hljs-keyword">RUN</span><span class="language-bash"> </span>
-  curl -L  https://github.com/ngircd/ngircd/archive/refs/tags/rel-<span class="hljs-number">26.1</span>.tar.gz -o ngircd.tgz &amp;&amp; \
+<span class="hljs-keyword">RUN</span><span class="language-bash"> \
+  curl -L  https://github.com/ngircd/ngircd/archive/refs/tags/rel-26.1.tar.gz -o ngircd.tgz &amp;&amp; \
   tar xvf ngircd.tgz &amp;&amp; \
-  mv /opt/ngircd-rel-<span class="hljs-number">26.1</span> /opt/ngircd
+  <span class="hljs-built_in">mv</span> /opt/ngircd-rel-26.1 /opt/ngircd</span>
 
 <span class="hljs-keyword">WORKDIR</span><span class="language-bash"> /opt/ngircd</span>
 <span class="hljs-keyword">RUN</span><span class="language-bash"> \
@@ -80,13 +80,19 @@ I also wrote a Docker image to automate this:</p>
   make &amp;&amp; \
   make install</span>
 
+<span class="hljs-keyword">WORKDIR</span><span class="language-bash"> /scripts</span>
+
+<span class="hljs-keyword">RUN</span><span class="language-bash"> \
+  <span class="hljs-built_in">rm</span> /opt/ngircd.tgz &amp;&amp; \
+  <span class="hljs-built_in">rm</span> -rf /opt/ngircd</span>
+
 <span class="hljs-keyword">COPY</span><span class="language-bash"> scripts /scripts</span>
 <span class="hljs-keyword">COPY</span><span class="language-bash"> etc/pam.d /etc/pam.d</span>
 
 <span class="hljs-keyword">EXPOSE</span> <span class="hljs-number">6667</span>
 <span class="hljs-keyword">EXPOSE</span> <span class="hljs-number">6697</span>
 
-<span class="hljs-keyword">VOLUME</span><span class="language-bash"> [<span class="hljs-string">&quot;/config&quot;</span>]</span>
+<span class="hljs-keyword">VOLUME</span><span class="language-bash"> [<span class="hljs-string">&quot;/config/ngircd&quot;</span>]</span>
 
 <span class="hljs-keyword">CMD</span><span class="language-bash"> [ <span class="hljs-string">&quot;/scripts/start.sh&quot;</span> ]</span></code></pre><p>Since the environment variables I set in my <code>docker-compose.yaml</code> aren&#39;t
 available within PAM, the <code>start.sh</code> script stores them:</p>
@@ -110,6 +116,8 @@ EOF</span>
 of <code>ngircd.conf</code>.</p>
 <p>This can be used for any of the many servers and apps that support PAM
 authentication.</p>
+<p>I&#39;ve published the Docker image at <a href="https://hub.docker.com/repository/docker/errilaz/emauth-ngircd">errilaz/emauth-ngircd</a>
+and source code is on <a href="https://github.com/errilaz/emauth/tree/master/images/ngircd">GitHub</a>.</p>
 <h2 id="other-bridges">Other Bridges</h2>
 <p>Some servers also support hitting an HTTP proxy or SSH daemon to verify
 credentials. It would be trivial to bridge these methods to IMAP in the
@@ -118,7 +126,9 @@ of using this simple, cheap same sign-on with tons of software.</p>
 <p>You could use a full IMAP library to achieve this, but as the OpenSSL
 example shows, it is very simple with a TLS socket. I have tested this 
 TypeScript code and plan to use it for any other bridges I create in the
-future (which I will share):</p>
+future (which I will share).</p>
+<p>I&#39;ve also published this on <a href="https://www.npmjs.com/package/emauth-authenticate">NPM</a>
+and <a href="https://github.com/errilaz/emauth/tree/master/libraries/authenticate">GitHub</a>.</p>
 <pre><code><span class="hljs-keyword">import</span> tls <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;tls&quot;</span>
 
 <span class="hljs-keyword">const</span> <span class="hljs-variable constant_">CRLF</span> = <span class="hljs-string">&quot;\r\n&quot;</span>
