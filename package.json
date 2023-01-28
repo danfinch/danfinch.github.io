@@ -19,7 +19,7 @@
   "devDependencies": {
     "bahunya": "github:Kimeiga/bahunya",
     "highlight.js": "^11.7.0",
-    "pocketpress": "0.0.25"
+    "pocketpress": "0.0.26"
   },
   "scripts": {
     "build": "pocket",
