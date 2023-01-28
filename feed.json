@@ -6,6 +6,18 @@
   "language": "en-US",
   "items": [
     {
+      "id": "https://da.nfin.ch/blog/sso-with-email.html",
+      "url": "https://da.nfin.ch/blog/sso-with-email.html",
+      "title": "Simple, Cheap Same Sign-On with Email",
+      "content_text": "Less credentials to manage for home or business clouds",
+      "summary": "Less credentials to manage for home or business clouds",
+      "date_published": "2023-01-28T00:00:00.000Z",
+      "tags": [
+        "sso",
+        "self-hosted"
+      ]
+    },
+    {
       "id": "https://da.nfin.ch/blog/pocketpress-ssg.html",
       "url": "https://da.nfin.ch/blog/pocketpress-ssg.html",
       "title": "Introducing PocketPress SSG",

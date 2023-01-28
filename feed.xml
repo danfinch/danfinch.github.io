@@ -4,48 +4,48 @@
 	<link href="https://da.nfin.ch/feed.xml" rel="self" />
 	<link href="https://da.nfin.ch/" />
 	<id>https://da.nfin.ch/</id>
-	<updated>2023-01-26T00:00:00.000Z</updated>
+	<updated>2023-01-28T00:00:00.000Z</updated>
   <generator uri="https://github.com/errilaz/pocketpress" version="1.0">
     PocketPress
   </generator>
   <entry>
+    <id>https://da.nfin.ch/blog/sso-with-email.html</id>
+    <title>Simple, Cheap Same Sign-On with Email</title>
+    <summary>Less credentials to manage for home or business clouds</summary>
+    <updated>2023-01-28T00:00:00.000Z</updated>
+    <content>https://da.nfin.ch/blog/sso-with-email.html</content>
+    <author><name>Dan Finch</name></author>
+  </entry>
+  <entry>
     <id>https://da.nfin.ch/blog/pocketpress-ssg.html</id>
     <title>Introducing PocketPress SSG</title>
     <summary>Improving my portfolio site got out of hand</summary>
-    <link>https://da.nfin.ch/blog/pocketpress-ssg.html</link>
     <updated>2023-01-26T00:00:00.000Z</updated>
-    <content>
-      Improving my portfolio site got out of hand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://da.nfin.ch/blog/pocketpress-ssg.html&quot;&gt;Read more&lt;/a&gt;</content>
+    <content>https://da.nfin.ch/blog/pocketpress-ssg.html</content>
     <author><name>Dan Finch</name></author>
   </entry>
   <entry>
     <id>https://da.nfin.ch/blog/product-catalog.html</id>
     <title>Coldwater Creek Product Catalog</title>
     <summary>A large, challenging project</summary>
-    <link>https://da.nfin.ch/blog/product-catalog.html</link>
     <updated>2021-09-25T00:00:00.000Z</updated>
-    <content>
-      A large, challenging project&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://da.nfin.ch/blog/product-catalog.html&quot;&gt;Read more&lt;/a&gt;</content>
+    <content>https://da.nfin.ch/blog/product-catalog.html</content>
     <author><name>Dan Finch</name></author>
   </entry>
   <entry>
     <id>https://da.nfin.ch/blog/standing-ovation.html</id>
     <title>Standing Ovation</title>
     <summary>Surprise applause for nice UX</summary>
-    <link>https://da.nfin.ch/blog/standing-ovation.html</link>
     <updated>2021-09-24T00:00:00.000Z</updated>
-    <content>
-      Surprise applause for nice UX&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://da.nfin.ch/blog/standing-ovation.html&quot;&gt;Read more&lt;/a&gt;</content>
+    <content>https://da.nfin.ch/blog/standing-ovation.html</content>
     <author><name>Dan Finch</name></author>
   </entry>
   <entry>
     <id>https://da.nfin.ch/blog/old-fashioned-hyperscript.html</id>
     <title>Old Fashioned Hyperscript</title>
     <summary>Server-side hyperscript in 2008</summary>
-    <link>https://da.nfin.ch/blog/old-fashioned-hyperscript.html</link>
     <updated>2021-09-23T00:00:00.000Z</updated>
-    <content>
-      Server-side hyperscript in 2008&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://da.nfin.ch/blog/old-fashioned-hyperscript.html&quot;&gt;Read more&lt;/a&gt;</content>
+    <content>https://da.nfin.ch/blog/old-fashioned-hyperscript.html</content>
     <author><name>Dan Finch</name></author>
   </entry>
 </feed>
