@@ -168,7 +168,7 @@ page: (meta) -> layout meta,
     This can be used for any of the many servers and apps that support PAM
     authentication.
 
-    I've published the Docker image at [errilaz/emauth-ngircd](https://hub.docker.com/repository/docker/errilaz/emauth-ngircd)
+    I've published the Docker image at [errilaz/emauth-ngircd](https://hub.docker.com/r/errilaz/emauth-ngircd)
     and source code is on [GitHub](https://github.com/errilaz/emauth/tree/master/images/ngircd).
 
     ## Other Bridges
