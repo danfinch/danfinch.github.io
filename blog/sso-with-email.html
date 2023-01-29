@@ -65,7 +65,7 @@ I also wrote a Docker image to automate this:</p>
 <pre><code><span class="hljs-keyword">FROM</span> alpine:<span class="hljs-number">3.16</span>
 
 <span class="hljs-keyword">RUN</span><span class="language-bash"> apk --no-cache add curl autoconf automake pkgconfig \
-  openssl make gcc g++ openssl-dev linux-pam-dev</span>
+  openssl make gcc g++ openssl-dev linux-pam-dev linux-pam</span>
 
 <span class="hljs-keyword">WORKDIR</span><span class="language-bash"> /opt</span>
 <span class="hljs-keyword">RUN</span><span class="language-bash"> \
@@ -79,6 +79,10 @@ I also wrote a Docker image to automate this:</p>
   ./configure --with-openssl --with-pam &amp;&amp; \
   make &amp;&amp; \
   make install</span>
+
+<span class="hljs-keyword">RUN</span><span class="language-bash"> \
+  apk del curl autoconf automake pkgconfig make gcc g++ \
+  openssl-dev linux-pam-dev</span>
 
 <span class="hljs-keyword">WORKDIR</span><span class="language-bash"> /scripts</span>
 

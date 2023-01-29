@@ -93,7 +93,7 @@ page: (meta) -> layout meta,
     FROM alpine:3.16
 
     RUN apk --no-cache add curl autoconf automake pkgconfig \\
-      openssl make gcc g++ openssl-dev linux-pam-dev
+      openssl make gcc g++ openssl-dev linux-pam-dev linux-pam
 
     WORKDIR /opt
     RUN \\
@@ -107,6 +107,10 @@ page: (meta) -> layout meta,
       ./configure --with-openssl --with-pam && \\
       make && \\
       make install
+
+    RUN \\
+      apk del curl autoconf automake pkgconfig make gcc g++ \\
+      openssl-dev linux-pam-dev
 
     WORKDIR /scripts
 
