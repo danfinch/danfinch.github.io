@@ -31,6 +31,7 @@
           li a href: (link-to "/experience/"), "Experience"
           li a href: (link-to "/tech/"), "Tech"
           li a href: (link-to "/blog/"), "Blog"
+          li a href: "https://errilaz.org", "Projects"
           li a href: (link-to "/contact/"), "Contact"
       main do
         _content
