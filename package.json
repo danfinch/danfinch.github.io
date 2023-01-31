@@ -19,13 +19,15 @@
   "devDependencies": {
     "bahunya": "github:Kimeiga/bahunya",
     "highlight.js": "^11.7.0",
-    "pocketpress": "0.0.26"
+    "pocketpress": "0.0.31"
   },
   "scripts": {
     "build": "pocket",
     "dev": "pocket -w",
     "edge:build": "POCKET_DEV=true ../pocketpress/bin/pocket",
     "edge:dev": "POCKET_DEV=true ../pocketpress/bin/pocket -w",
+    "local:build": "../pocketpress/bin/pocket",
+    "local:dev": "../pocketpress/bin/pocket -w",
     "bench:node": "time ../pocketpress/bin/pocket",
     "bench:bun": "POCKET_DEV=bun time ../pocketpress/bin/pocket",
     "push": "sh -c 'pnpm edge:build && git add . && git commit -m \"$0\" && git push'"

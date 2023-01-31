@@ -3,12 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   bahunya: github:Kimeiga/bahunya
   highlight.js: ^11.7.0
-  pocketpress: 0.0.26
+  pocketpress: 0.0.31
 
 devDependencies:
   bahunya: github.com/Kimeiga/bahunya/19f6dee7dff7aa77a9e66d9094e7674911738adb
   highlight.js: 11.7.0
-  pocketpress: 0.0.26
+  pocketpress: 0.0.31
 
 packages:
 
@@ -96,11 +96,6 @@ packages:
     engines: {node: '>=12.0.0'}
     dev: true
 
-  /html-tags/3.2.0:
-    resolution: {integrity: sha512-vy7ClnArOZwCnqZgvv+ddgHgJiAFXe3Ge9ML5/mBctVJoUoYPCdxVucOywjDARn6CVoh3dRSFdPHy2sX80L0Wg==}
-    engines: {node: '>=8'}
-    dev: true
-
   /is-binary-path/2.1.0:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
     engines: {node: '>=8'}
@@ -123,10 +118,6 @@ packages:
   /is-number/7.0.0:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
-    dev: true
-
-  /known-css-properties/0.26.0:
-    resolution: {integrity: sha512-5FZRzrZzNTBruuurWpvZnvP9pum+fe0HcK8z/ooo+U+Hmp4vtbyp1/QDsqmufirXy4egGzbaH/y2uCZf+6W5Kg==}
     dev: true
 
   /levn/0.3.0:
@@ -176,15 +167,13 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pocketpress/0.0.26:
-    resolution: {integrity: sha512-Qe1dMQ2TVYcnsSmBswoOnSQvPMUcx0g8we34N4xQa3YWRG/olaX7k8Lv1VFYbcgWrPRfLvSzz9UobZqDnFuh9g==}
+  /pocketpress/0.0.31:
+    resolution: {integrity: sha512-rW11OkwYW5A0on6N/yQeiYK1nCUnhhGKFStTF90Ob0j8/BHPsWdSZ1tQB1XnNhQ5Q/Jl9QWrTaTWI4LqymfXLQ==}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
       cssesc: 3.0.0
       escape-html: 1.0.3
-      html-tags: 3.2.0
-      known-css-properties: 0.26.0
       livescript: 1.6.0
       marked: 4.2.12
       toptions: 1.0.2

@@ -74,6 +74,10 @@ page: (meta) -> layout meta,
     This sped the generator up considerably and also gave me accurate line numbers when an
     error happened.
 
+    **Update 2023-01-31**: I'm now generating these symbols before build as locals in the
+    context where the `eval` lives to remove the need for a child process, resulting in
+    [this behemoth](https://github.com/errilaz/pocketpress/blob/master/src/run.ts).
+
     ## Optimizing DX
 
     It was annoying to have to run the generator in the terminal, switch to the browser, then
