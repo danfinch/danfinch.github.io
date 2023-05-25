@@ -29,6 +29,16 @@
     <author><name>Dan Finch</name></author>
   </entry>
   <entry>
+    <id>https://da.nfin.ch/blog/desktop-html-on-a-diet.html</id>
+    <title>Desktop HTML on a Diet</title>
+    <summary>Apps 1000 times smaller than Electron</summary>
+    <link>https://da.nfin.ch/blog/desktop-html-on-a-diet.html</link>
+    <updated>2023-05-25T00:00:00.000Z</updated>
+    <content type="html">
+      Apps 1000 times smaller than Electron&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://da.nfin.ch/blog/desktop-html-on-a-diet.html&quot;&gt;Read more&lt;/a&gt;</content>
+    <author><name>Dan Finch</name></author>
+  </entry>
+  <entry>
     <id>https://da.nfin.ch/blog/product-catalog.html</id>
     <title>Coldwater Creek Product Catalog</title>
     <summary>A large, challenging project</summary>
