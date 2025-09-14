@@ -9,11 +9,9 @@ page: ({ title }) -> layout "#title - Dan Finch",
     - [errilaz.org](https://errilaz.org) - Open Source Projects
     - [LinkedIn](https://www.linkedin.com/in/danfinch/)
     - [GitHub](https://github.com/errilaz)
-    - [Twitter](https://twitter.com/errilaz)
     - [NPM](https://www.npmjs.com/~errilaz)
     - [StackOverflow](https://stackoverflow.com/users/62104/dan)
 
-    I am a US citizen living in Central Europe.
+    I am a US citizen living in Central Europe with my wife and son.
 
-    My résumé is available to [download in PDF](</contact/DanFinch-Experience.pdf>).
   """

@@ -23,11 +23,6 @@ page: ({ title }) -> layout "#title - Dan Finch",
       padding-right "10px"
       outline "solid 1px #808080"
   h1 title
-  div.stacks do
-    img src: "images/typescript.svg" alt: "TypeScript" width: "20%" height: "auto"
-    img src: "images/reactjs.svg" alt: "ReactJS" width: "20%" height: "auto"
-    img src: "images/nodejs.svg" alt: "NodeJS" width: "20%" height: "auto"
-    img src: "images/netcore.svg" alt: ".NET Core" width: "20%" height: "auto"
   div.cards do
     div.card markdown """
       #### Languages
@@ -38,22 +33,27 @@ page: ({ title }) -> layout "#title - Dan Finch",
       - LiveScript ⭐
       - Bash
       - Ruby
-      - Python
-      - PHP
       - SQL
-      - Lua
+      - Civet
     """
     div.card markdown """
       #### Platforms
       - Node.js ⭐
-      - HTML & CSS ⭐
+      - Bun ⭐
+      - HTML + CSS ⭐
       - .NET ⭐
       - .NET Core ⭐
       - Linux
       - Electron
       - Browser Extensions
       - React Native
+      - Deno
+      - Cloudflare Workers
       #### Testing
+      - Playwright ⭐
+      - Jest ⭐
+      - Vitest
+      - React Testing Library
       - Mocha
       - Chai
       - Jasmine
@@ -63,82 +63,69 @@ page: ({ title }) -> layout "#title - Dan Finch",
     div.card markdown """
       #### Frontend
       - React ⭐
+      - Vite ⭐
+      - Zustand ⭐
       - Babel ⭐
       - Webpack ⭐
       - Parcel ⭐
-      - Mithril ⭐
+      - Emotion / Styled Components ⭐
       - Redux ⭐
-      - Next.js
-      - Angular
-      - SCSS, Stylus, Less
+      - Mithril ⭐
+      - Vanilla Extract
+      - SCSS, Stylus, Less, CSS Modules
       - Bootstrap, Foundation, Tailwind
-      - Lodash, RxJS, Kefir, Immer
-      - NativeBase
+      - Lodash, Immer, RxJS, Kefir
     """
     div.card markdown """
       #### Backend
       - Express ⭐
       - Koa ⭐
-      - ADO.NET ⭐
-      - ASP.NET MVC/API ⭐
+      - ASP.NET ⭐
       - Fastify
+      - Hapi
+      - Nest
       - Dapper
-      - SignalR
-      - Rails
-      - Sinatra
-      - Django
     """
     div.card markdown """
       #### Data
       - Postgres ⭐
       - Redis ⭐
-      - MongoDB ⭐
       - Sqlite
+      - MongoDB
       - MySQL
       - ElasticSearch
-      - Sql Server
+      - SQL Server
     """
     div.card markdown """
-      #### Cloud
+      #### Cloud+Infra
       - Docker
-      - AWS
-      - Azure
-      - OpenStack
+      - Cloudflare
       - Firebase
-      - GCP
       - Supabase
+      - AWS, Azure, GCP
       - Heroku
       - Vercel
       - Netlify
       - DigitalOcean
     """
-    div.card (grid-column "span 2"), markdown """
+    div.card (grid-column "span 3"), markdown """
       #### Methodologies & Paradigms
       - Functional Programming & FRP
       - Domain-driven design (DDD)
+      - SOLID Principles
       - OOP (multiple interpretations)
       - Microservices & SOA
       - DevOps, CI/CD, Infrastructure as Code
       - Relational model & NoSQL
       - Agile & Scrum
       - TDD & BDD, unit testing, & E2E testing
-      - Responsive design, mobile-first, & progressive enhancement
-      - SOLID Principles
+      - Unix philosophy
+      - Metaprogramming 
+      - Responsive design & progressive enhancement
       - Distributed SCM
       - Parallel, Concurrent, & Asynchronous Programming
       - REST
-      - MVC
       - IoC & Dependency Injection
-      - Metaprogramming 
       - CQRS
-    """
-    div.card markdown """
-      #### Wish List
-      - Zig
-      - ReScript
-      - ClickHouse
-      - SolidJS
-      - Svelte
-      - TurboPack
     """
   p "⭐ = deep experience"

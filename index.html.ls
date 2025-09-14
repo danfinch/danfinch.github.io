@@ -9,6 +9,8 @@ page: layout "Dan Finch",
     expeditious code output while maintaining quality. I make loosely-coupled components,
     understandable abstractions, and low-ceremony frameworks.
 
+    <aside><img src="images/pfp.jpg"></aside>
+    
     As a programmer, my first principle is **user experience**. Like most of us, I struggle
     with mediocre software every day, and I use that dissatisfaction to set a high standard
     for my work. The first end user is the next person who must understand and add to the code.
@@ -33,7 +35,7 @@ page: layout "Dan Finch",
 
     - Compilers, interpreters & parsers.
     - Metaprogramming, language-oriented programming.
-    - Developer tools, hacking on build tools and bundlers.
+    - Developer tools - hacking on build tools and bundlers.
     - Automating self-hosted cloud tech.
 
     ### Hobbies

@@ -5,10 +5,15 @@ map: true
 page: ({ title }) -> layout "#title - Dan Finch",
   h1 title
   markdown """
-    #### Independent Consultant
-    > Dec 2014 - Present (Remote)
+    #### Dynatrace - Senior Software Engineer
+    > July 2023 - Present (Graz, Austria - Hybrid)
 
-    My recent freelance work has included:
+    I am very pleased to be working with a phenomenal team at Dynatrace.
+
+    #### Independent Consultant
+    > Dec 2014 - July 2023 (Remote)
+
+    My freelance work in this time included:
 
     - Created a mobile social network app for a startup conference and shared working space provider. This was written in functional TypeScript and React Native, with some Python/Django and Postgres on a Heroku backend.
     - Consulted on JavaScript and front-end tech for Bitbanger Labs for their ColorSpike hybrid mobile app built on Cordova.
@@ -27,7 +32,7 @@ page: ({ title }) -> layout "#title - Dan Finch",
     > Oct 2015 - Mar 2016 (Remote)
 
     This project for the oil + gas industry targeted the Mono platform on ARM processors. I designed and
-    implemented a C#-based driver model to control equipment in the field, with a frontend written in AngularJS.
+    implemented a C\#-based driver model to control equipment in the field, with a frontend written in AngularJS.
 
     #### Kochava - Senior Developer
     > Apr 2014 - Nov 2014 (Sandpoint, ID)
