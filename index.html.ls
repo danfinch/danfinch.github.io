@@ -5,20 +5,25 @@ map: true
 page: layout "Dan Finch",
   h1 "About Me"
   markdown """
-    I've learned to make code **small, simple, and readable**. My aim is prolific and
-    expeditious code output while maintaining quality. I make loosely-coupled components,
-    understandable abstractions, and low-ceremony frameworks.
+    I own software end-to-end: building or renewing stacks and evaluating the tools and
+    techniques that will serve the product well. I assist the team in creating frameworks,
+    automation, standards, and guidance that clear the path to delivering good software and
+    user experiences. I am comfortable working hands-on across code, architecture, UX, and
+    product.
 
     <aside><img src="images/pfp.jpg"></aside>
     
-    As a programmer, my first principle is **user experience**. Like most of us, I struggle
-    with mediocre software every day, and I use that dissatisfaction to set a high standard
-    for my work. The first end user is the next person who must understand and add to the code.
+    My first principle is **user experience**. Like most of us, I put up with mediocre
+    software every day, and I use that dissatisfaction to set a high standard for
+    our work.
+
+    As a programmer, I've learned to make code **small, simple, and readable**. My aim is
+    prolific and expeditious code output while maintaining quality. I make loosely-coupled
+    components, understandable abstractions, and low-ceremony frameworks.
 
     As a teammate and leader, I am devoted to **friendliness** and **respect**. I am a good
     communicator, love sharing my knowledge, and learning from others. I've given talks at
-    local user groups, mentored co-workers in my free time, and publish
-    [open source projects](https://errilaz.org).
+    local user groups and mentored at work and in my free time.
 
     ### Skills
 

@@ -8,23 +8,28 @@ page: ({ title }) -> layout "#title - Dan Finch",
     #### Dynatrace - Senior Software Engineer
     > July 2023 - Present (Graz, Austria - Hybrid)
 
-    I am very pleased to be working with a phenomenal team at Dynatrace.
+    - Implemented an array of features and bug fixes for several Business Analytics applications using **React** and **TypeScript**.
+    - Designed and implemented a strongly-typed embedded DSL to generate the data warehouse queries which power the apps, significantly reducing maintenance overhead.
+    - Created an end-to-end testing framework suite based on **Playwright** that substantially streamlined writing and running tests.
+    - Created and integrated a state management framework based on **Zustand** and **Immer** which greatly simplified and optimized front-end code.
+    - Initiated ongoing effort to improve code quality and project structure.
+    - Migrated a large project from Bitbucket+Jenkins to Github+Actions.
 
     #### Independent Consultant
     > Dec 2014 - July 2023 (Remote)
 
     My freelance work in this time included:
 
-    - Created a mobile social network app for a startup conference and shared working space provider. This was written in functional TypeScript and React Native, with some Python/Django and Postgres on a Heroku backend.
+    - Created a mobile social network app for a startup conference and shared working space provider. This was written in functional **TypeScript** and **React Native**, with some Python/Django and Postgres on a Heroku backend.
     - Consulted on JavaScript and front-end tech for Bitbanger Labs for their ColorSpike hybrid mobile app built on Cordova.
-    - Wrote a Chrome extension using the Mithril framework to inspect advertisements embedded in web pages for Bringhub.
-    - Designed and prototyped an app and backend for a IOT equipment monitoring startup in Sandpoint, ID using React, ElasticSearch, and Postgres.
-    - Created an Electron app connected to the QuickBooks API to build quotes for a greenhouse manufacturer.
+    - Wrote a Chrome extension using the **Mithril** framework to inspect advertisements embedded in web pages for Bringhub.
+    - Designed and prototyped an app and backend for a IOT equipment monitoring startup in Sandpoint, ID using **React**, **ElasticSearch**, and **Postgres**.
+    - Created an **Electron** app connected to the QuickBooks API to build quotes for a greenhouse manufacturer.
 
     #### RiskLens - Senior Software Engineer
     > Jun 2017 - Dec 2017 (Spokane, WA)
 
-    Helped lead the front-end development of FAIR-U - a React + Redux-based app backed by C#, Sql Server, and
+    Helped lead the front-end development of FAIR-U - a **React** + **Redux**-based app backed by **C\#**, Sql Server, and
     Azure & transitioned the team to TypeScript and other modern front-end tools. Gained experience with a
     security-focused and process-intensive team.
 
@@ -32,7 +37,7 @@ page: ({ title }) -> layout "#title - Dan Finch",
     > Oct 2015 - Mar 2016 (Remote)
 
     This project for the oil + gas industry targeted the Mono platform on ARM processors. I designed and
-    implemented a C\#-based driver model to control equipment in the field, with a frontend written in AngularJS.
+    implemented a **C\#**-based driver model to control equipment in the field, with a frontend written in AngularJS.
 
     #### Kochava - Senior Developer
     > Apr 2014 - Nov 2014 (Sandpoint, ID)
@@ -41,7 +46,7 @@ page: ({ title }) -> layout "#title - Dan Finch",
     complex challenges requiring constant inventiveness and collaboration to help the company scale at
     a rapid rate.
 
-    My work centered around Node.js, Redis, Linux, and MongoDB. I also led the early implementation of a
+    My work centered around **Node.js**, **Redis**, Linux, and **MongoDB**. I also led the early implementation of a
     scalable high-traffic analytics backend.
 
     #### Coldwater Creek - Web Developer

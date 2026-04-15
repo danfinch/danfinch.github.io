@@ -12,12 +12,17 @@ page: ({ title }) -> layout "#title - Dan Finch",
       display "grid"
       gap "1px"
       margin-top "30px"
+    
     rule ".cards h4, .cards h5",
       margin-top "1rem"
-    $media "(min-width: 600px)", rule ".cards",
-      grid-template-columns "repeat(2, 1fr)"
+    $media "(min-width: 600px)",
+      rule ".cards",
+        grid-template-columns "repeat(2, 1fr)"
     $media "(min-width: 900px)", rule ".cards",
       grid-template-columns "repeat(3, 1fr)"
+      grid-template-rows "repeat(3)"
+      rule ".big.card",
+        grid-column "span 2"
     rule ".card",
       padding-left "10px"
       padding-right "10px"
@@ -29,26 +34,21 @@ page: ({ title }) -> layout "#title - Dan Finch",
       - TypeScript ⭐
       - JavaScript ⭐
       - C# ⭐
-      - F# ⭐
-      - LiveScript ⭐
-      - Bash
-      - Ruby
+      - F#
       - SQL
-      - Civet
     """
     div.card markdown """
       #### Platforms
-      - Node.js ⭐
-      - Bun ⭐
+      - Node.js, Deno, and Bun ⭐
       - HTML + CSS ⭐
-      - .NET ⭐
-      - .NET Core ⭐
+      - .NET & .NET Core ⭐
       - Linux
       - Electron
       - Browser Extensions
       - React Native
-      - Deno
       - Cloudflare Workers
+    """
+    div.card markdown """
       #### Testing
       - Playwright ⭐
       - Jest ⭐
@@ -64,16 +64,12 @@ page: ({ title }) -> layout "#title - Dan Finch",
       #### Frontend
       - React ⭐
       - Vite ⭐
-      - Zustand ⭐
-      - Babel ⭐
-      - Webpack ⭐
-      - Parcel ⭐
+      - Zustand, Immer, and Redux ⭐
+      - Babel, Webpack, Parcel ⭐
       - Emotion / Styled Components ⭐
-      - Redux ⭐
       - Mithril ⭐
       - Vanilla Extract
       - SCSS, Stylus, Less, CSS Modules
-      - Bootstrap, Foundation, Tailwind
       - Lodash, Immer, RxJS, Kefir
     """
     div.card markdown """
@@ -84,7 +80,6 @@ page: ({ title }) -> layout "#title - Dan Finch",
       - Fastify
       - Hapi
       - Nest
-      - Dapper
     """
     div.card markdown """
       #### Data
@@ -102,30 +97,20 @@ page: ({ title }) -> layout "#title - Dan Finch",
       - Cloudflare
       - Firebase
       - Supabase
-      - AWS, Azure, GCP
-      - Heroku
-      - Vercel
-      - Netlify
-      - DigitalOcean
+      - AWS
     """
-    div.card (grid-column "span 3"), markdown """
+    div.big.card markdown """
       #### Methodologies & Paradigms
-      - Functional Programming & FRP
       - Domain-driven design (DDD)
-      - SOLID Principles
-      - OOP (multiple interpretations)
-      - Microservices & SOA
-      - DevOps, CI/CD, Infrastructure as Code
-      - Relational model & NoSQL
-      - Agile & Scrum
       - TDD & BDD, unit testing, & E2E testing
+      - Object-Oriented and Functional Programming
+      - SOLID Principles
+      - REST & Microservices
+      - DevOps, CI/CD, Infrastructure as Code
+      - RDBMS & NoSQL
+      - Agile & Scrum
       - Unix philosophy
-      - Metaprogramming 
-      - Responsive design & progressive enhancement
-      - Distributed SCM
-      - Parallel, Concurrent, & Asynchronous Programming
-      - REST
+      - Responsive design
       - IoC & Dependency Injection
-      - CQRS
     """
   p "⭐ = deep experience"
